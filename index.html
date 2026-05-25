@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yeditepe AI - Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi</title>
+  <meta name="description" content="Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi resmi web sitesi.">
+  
+  <!-- SEO & Social -->
+  <link rel="canonical" href="https://ahmetatakanokutann.github.io/bilisimYapayZeka/index.html">
+  <meta property="og:title" content="Yeditepe AI - Yapay Zeka Uygulama ve Araştırma Merkezi">
+  <meta property="og:description" content="Yapay zeka ile geleceği şekillendiriyoruz.">
+  <meta property="og:image" content="https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/opening-event.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- JSON-LD Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi",
+    "url": "https://ahmetatakanokutann.github.io/bilisimYapayZeka",
+    "logo": "https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+90-216-578-00-00",
+      "contactType": "customer service"
+    }
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+
+  <!-- Shared Header -->
+  <div id="site-header"></div>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+    <!-- 1. Hero Section -->
+    <section class="dark-section py-24 md:py-32 relative overflow-hidden">
+      <!-- Background Video -->
+      <video class="hero-video absolute inset-0 w-full h-full object-cover opacity-20 z-0"
+             autoplay muted loop playsinline preload="metadata" aria-hidden="true"
+             poster="assets/img/placeholder.svg">
+        <source src="assets/img/hero-bg.mp4" type="video/mp4">
+      </video>
+      
+      <!-- Gradient Overlay for Contrast -->
+      <div class="absolute inset-0 bg-gradient-to-b from-[--c-ink]/80 via-transparent to-[--c-ink]/80 z-[1]"></div>
+      
+      <!-- Pattern overlay (on top of video) -->
+      <div class="absolute inset-0 opacity-10 pointer-events-none z-[2]" style="background-image: radial-gradient(circle at 2px 2px, var(--c-accent) 1px, transparent 0); background-size: 40px 40px;"></div>
+      
+      <div class="container relative z-10 flex flex-col items-center text-center">
+        <h1 class="text-5xl md:text-8xl mb-8 leading-tight">
+          <span data-i18n="hero_title_part1">Yapay Zeka ile</span><br>
+          <span class="gradient-text" data-i18n="hero_title_part2">Geleceği Şekillendiriyoruz</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-[--c-on-dark] opacity-90 mb-12 max-w-3xl leading-relaxed" data-i18n="hero_subtitle">
+          Yeditepe Üniversitesi Teknoloji Üssü'nde, küresel ortaklıklarla uygulamalı yapay zeka çözümleri geliştiriyoruz.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6">
+          <a href="projeler.html" class="btn-primary text-lg px-8 py-4" data-i18n="hero_cta">Projelerimizi İnceleyin</a>
+          <a href="iletisim.html" class="btn-ghost !text-white !border-white/30 hover:!bg-white/10 text-lg px-8 py-4" data-i18n="hero_secondary_cta">İletişime Geçin</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Intro / Info Strip -->
+    <section class="py-16 bg-[--c-surface] border-y border-[--c-border]">
+      <div class="container text-center">
+        <p class="text-2xl md:text-3xl font-medium text-[--c-navy] max-w-4xl mx-auto leading-snug" data-i18n="intro_text">
+          Türkiye'nin teknoloji ekosisteminin kalbinde, Teknopark İstanbul'da inovasyonun sınırlarını zorluyoruz.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. Focus Areas Section -->
+    <section class="section">
+      <div class="container">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+          <div class="max-w-2xl">
+            <h2 class="text-4xl md:text-5xl mb-4" data-i18n="section_research_title">Araştırma Odak Alanlarımız</h2>
+            <p class="text-lg text-[--c-muted]" data-i18n="section_research_subtitle">Endüstriyel dönüşümden yeşil geleceğe, yapay zekayı hayatın her alanına entegre ediyoruz.</p>
+          </div>
+        </div>
+        <div id="research-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Stats Section -->
+    <section class="dark-section py-20 bg-gradient-to-r from-[--c-ink] to-[--c-navy]">
+      <div class="container grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+        <div>
+          <div class="text-5xl font-bold gradient-text mb-2">6</div>
+          <p class="text-[--c-on-dark] opacity-70 uppercase tracking-widest text-xs" data-i18n="stat_focus">Odak Alanı</p>
+        </div>
+        <div>
+          <div class="text-5xl font-bold gradient-text mb-2">4+</div>
+          <p class="text-[--c-on-dark] opacity-70 uppercase tracking-widest text-xs" data-i18n="stat_partners">Stratejik Ortak</p>
+        </div>
+        <div>
+          <div class="text-5xl font-bold gradient-text mb-2">2026</div>
+          <p class="text-[--c-on-dark] opacity-70 uppercase tracking-widest text-xs" data-i18n="stat_foundation">Kuruluş</p>
+        </div>
+        <div>
+          <div class="text-5xl font-bold gradient-text mb-2">3</div>
+          <p class="text-[--c-on-dark] opacity-70 uppercase tracking-widest text-xs" data-i18n="stat_units">Ana Birim</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Featured Projects Section -->
+    <section class="section bg-[--c-surface]">
+      <div class="container">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+          <div class="max-w-2xl">
+            <h2 class="text-4xl md:text-5xl mb-4" data-i18n="section_projects_title">Öne Çıkan Projeler</h2>
+            <p class="text-lg text-[--c-muted]" data-i18n="section_projects_subtitle">Küresel ortaklarımızla gerçekleştirdiğimiz uygulamalı yapay zeka projeleri.</p>
+          </div>
+          <a href="projeler.html" class="btn-ghost group">
+            <span data-i18n="view_all">Tümünü Gör</span>
+            <i data-lucide="arrow-right" class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+        <div id="featured-projects" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Partners Section -->
+    <section class="section border-y border-[--c-border]">
+      <div class="container">
+        <h2 class="text-center text-3xl mb-16" data-i18n="section_partners_title">Stratejik Ortaklarımız</h2>
+        <div id="partners-track" class="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Latest News Section -->
+    <section class="section">
+      <div class="container">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+          <div class="max-w-2xl">
+            <h2 class="text-4xl md:text-5xl mb-4" data-i18n="section_news_title">Son Haberler</h2>
+          </div>
+          <a href="haberler.html" class="btn-ghost group" data-i18n="view_all">
+            <span data-i18n="view_all">Tümünü Gör</span>
+            <i data-lucide="arrow-right" class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"></i>
+          </a>
+        </div>
+        <div id="latest-news" class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CTA Section -->
+    <section class="section">
+      <div class="container">
+        <div class="bg-gradient-to-br from-[--c-navy] to-[--c-ink] rounded-[2.5rem] p-12 md:p-24 text-center relative overflow-hidden">
+          <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: linear-gradient(45deg, var(--c-accent) 0%, transparent 70%);"></div>
+          <div class="relative z-10">
+            <h2 class="text-4xl md:text-6xl text-white mb-8" data-i18n="cta_home_title">Geleceği Birlikte İnşa Edelim</h2>
+            <p class="text-xl text-[--c-on-dark] opacity-90 mb-12 max-w-2xl mx-auto" data-i18n="cta_home_subtitle">Akıllı sistemler ve sürdürülebilir teknoloji çözümleri için bizimle iletişime geçin.</p>
+            <a href="iletisim.html" class="btn-primary text-xl px-12 py-5" data-i18n="hero_secondary_cta">İletişime Geçin</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

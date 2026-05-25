@@ -1,0 +1,26 @@
+[
+  {
+    "id": "oguz-bayat",
+    "name": "Prof. Dr. Oğuz Bayat",
+    "role": { "tr": "Merkez Müdürü", "en": "Director" },
+    "affiliation": {
+      "tr": "AR-GE ve İnovasyondan Sorumlu Rektör Yardımcısı · Elektrik-Elektronik Mühendisliği Bölümü",
+      "en": "Vice Rector for R&D and Innovation · Dept. of Electrical & Electronics Engineering"
+    },
+    "email": "oguz.bayat@yeditepe.edu.tr",
+    "photo": "assets/img/team-oguz-bayat.png",
+    "group": "leadership"
+  },
+  {
+    "id": "sule-aydeniz",
+    "name": "Prof. Dr. Şule Aydeniz",
+    "role": { "tr": "Müdür Yardımcısı", "en": "Deputy Director" },
+    "affiliation": {
+      "tr": "Uluslararası İşletmecilik (Almanca) Bölümü",
+      "en": "International Business (German Program)"
+    },
+    "email": "sule.aydeniz@yeditepe.edu.tr",
+    "photo": "assets/img/team-sule-aydeniz.jpg",
+    "group": "leadership"
+  }
+]

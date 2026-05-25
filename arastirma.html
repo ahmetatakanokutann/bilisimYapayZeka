@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Araştırma Alanları | Yeditepe AI</title>
+  <meta name="description" content="Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi temel araştırma ve odak alanları.">
+  
+  <!-- SEO & Social -->
+  <link rel="canonical" href="https://ahmetatakanokutann.github.io/bilisimYapayZeka/arastirma.html">
+  <meta property="og:title" content="Araştırma Alanları | Yeditepe AI">
+  <meta property="og:description" content="Endüstriyel YZ, Dijital İkizler ve daha fazlası.">
+  <meta property="og:image" content="https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/opening-event.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+
+  <!-- Shared Header -->
+  <div id="site-header"></div>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+    <!-- Page Header -->
+    <section class="dark-section py-20 md:py-32">
+      <div class="container text-center">
+        <h1 class="text-4xl md:text-6xl mb-6">
+          <span class="gradient-text" data-i18n="nav_research">Araştırma Alanları</span>
+        </h1>
+        <p class="text-xl text-[--c-on-dark] opacity-90 max-w-3xl mx-auto leading-relaxed" data-i18n="research_intro">
+          Endüstriyel ihtiyaçlara yönelik, uygulamalı yapay zeka araştırmalarımızla dijital dönüşüme yön veriyoruz.
+        </p>
+      </div>
+    </section>
+
+    <!-- Research Areas Grid -->
+    <section class="section">
+      <div class="container">
+        <div id="research-page-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fraunhofer Methodology Section -->
+    <section class="section bg-[--c-navy] text-white overflow-hidden relative">
+      <div class="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
+        <svg viewBox="0 0 100 100" class="w-full h-full"><circle cx="80" cy="50" r="40" fill="var(--c-accent)"/></svg>
+      </div>
+      <div class="container relative z-10">
+        <div class="max-w-3xl">
+          <h2 class="text-3xl md:text-5xl mb-8 font-bold" data-i18n="fraunhofer_title">Fraunhofer Metodolojisi ile Uygulamalı Araştırma</h2>
+          <p class="text-xl text-white/80 mb-8 leading-relaxed" data-i18n="fraunhofer_desc">
+            Avrupa'nın en büyük uygulamalı araştırma kuruluşu olan Fraunhofer IOSB ile yaptığımız stratejik ortaklık sayesinde, akademik teoriyi endüstriyel başarı hikayelerine dönüştürüyoruz.
+          </p>
+          <ul class="flex flex-col gap-4 text-lg">
+            <li class="flex items-center gap-3">
+              <i data-lucide="check-circle" class="text-[--c-accent-2]"></i>
+              <span data-i18n="fraunhofer_point1">Sanayi ile doğrudan entegrasyon</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="check-circle" class="text-[--c-accent-2]"></i>
+              <span data-i18n="fraunhofer_point2">Uluslararası standartlarda veri yönetimi</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i data-lucide="check-circle" class="text-[--c-accent-2]"></i>
+              <span data-i18n="fraunhofer_point3">Hızlı prototipleme ve saha uygulamaları</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container text-center">
+        <h2 class="text-3xl mb-8" data-i18n="research_cta_title">Odak Alanlarımız Hakkında Detaylı Bilgi Alın</h2>
+        <a href="iletisim.html" class="btn-primary px-10 py-4" data-i18n="hero_secondary_cta">İletişime Geçin</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "fraunhofer-iosb",
+    "name": "Fraunhofer IOSB",
+    "logo": "assets/img/partner-fraunhofer.svg",
+    "url": "https://www.iosb.fraunhofer.de/",
+    "role": {
+      "tr": "Stratejik Araştırma Ortağı (Almanya)",
+      "en": "Strategic Research Partner (Germany)"
+    }
+  },
+  {
+    "id": "iib",
+    "name": "IIB - International Institute of Business Enterprises e.V.",
+    "logo": "assets/img/partner-iib.png",
+    "url": "https://www.iib-enterprises.eu",
+    "role": {
+      "tr": "Uluslararası İş Geliştirme Ortağı",
+      "en": "International Business Development Partner"
+    }
+  },
+  {
+    "id": "teknopark-istanbul",
+    "name": "Teknopark İstanbul",
+    "logo": "assets/img/partner-teknopark.svg",
+    "url": "https://www.teknoparkistanbul.com.tr",
+    "role": {
+      "tr": "Ev Sahibi Teknoloji Ekosistemi",
+      "en": "Host Technology Ecosystem"
+    }
+  },
+  {
+    "id": "yeditepe-uni",
+    "name": "Yeditepe Üniversitesi",
+    "logo": "assets/img/partner-yeditepe.svg",
+    "url": "https://www.yeditepe.edu.tr",
+    "role": {
+      "tr": "Kurucu Üniversite",
+      "en": "Founding University"
+    }
+  }
+]

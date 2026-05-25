@@ -1,0 +1,54 @@
+{
+  "intro": {
+    "tr": "Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi, Türkiye'nin dijital dönüşümüne öncülük etmek ve küresel ölçekte rekabetçi yapay zeka çözümleri üretmek amacıyla kurulmuştur.",
+    "en": "Yeditepe University Informatics and Artificial Intelligence Applications and Research Center was established to lead Turkey's digital transformation and produce globally competitive AI solutions."
+  },
+  "mission": {
+    "tr": "Akademik birikimi endüstriyel ihtiyaçlarla buluşturarak, toplumsal ve ekonomik fayda sağlayan, etik değerlere bağlı, yenilikçi yapay zeka araştırmaları yürütmek.",
+    "en": "To conduct innovative AI research that provides social and economic benefits, adheres to ethical values, by bringing together academic knowledge with industrial needs."
+  },
+  "vision": {
+    "tr": "Yapay zeka alanında uluslararası bir mükemmeliyet merkezi haline gelerek, geleceğin teknolojilerini bugünden şekillendiren öncü bir kuruluş olmak.",
+    "en": "To become an international center of excellence in the field of AI and a leading organization shaping the technologies of the future today."
+  },
+  "units": [
+    {
+      "id": "venture-studio",
+      "title": { "tr": "Girişim Stüdyosu (Venture Studio)", "en": "Venture Studio" },
+      "desc": {
+        "tr": "Yapay zeka tabanlı girişimlerin tohumlandığı ve büyütüldüğü inovasyon merkezi.",
+        "en": "An innovation hub where AI-based startups are seeded and nurtured."
+      }
+    },
+    {
+      "id": "ai-center",
+      "title": { "tr": "Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi", "en": "Informatics and Artificial Intelligence Applications and Research Center" },
+      "desc": {
+        "tr": "Endüstriyel uygulamalara odaklanan, Fraunhofer IOSB işbirliği ile güçlendirilmiş araştırma birimi.",
+        "en": "Research unit focused on industrial applications, strengthened by collaboration with Fraunhofer IOSB."
+      }
+    },
+    {
+      "id": "carbon-lab",
+      "title": { "tr": "Karbon Çözümleri Laboratuvarı", "en": "Carbon Solutions Laboratory" },
+      "desc": {
+        "tr": "Yapay zeka destekli sürdürülebilirlik ve yeşil dönüşüm teknolojileri geliştirme merkezi.",
+        "en": "A center for developing AI-supported sustainability and green transformation technologies."
+      }
+    }
+  ],
+  "event": {
+    "title": { "tr": "Büyük Açılış: Mart 2026", "en": "Grand Opening: March 2026" },
+    "desc": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü'nün açılışı, Türkiye ve Almanya'nın yapay zeka alanındaki stratejik işbirliğinin bir dönüm noktası oldu.",
+      "en": "The opening of Yeditepe University Technology Hub marked a milestone in the strategic cooperation between Turkey and Germany in the field of AI."
+    },
+    "participants": [
+      { "name": "Bedrettin Dalan", "title": { "tr": "Kurucu ve Onursal Başkan", "en": "Founder and Honorary President" } },
+      { "name": "Prof. Dr. Mehmet Durman", "title": { "tr": "Rektör", "en": "Rector" } },
+      { "name": "Dr. Olaf Sauer", "title": { "tr": "Fraunhofer IOSB Almanya Müdürü", "en": "Fraunhofer IOSB Germany Director" } },
+      { "name": "Recep Tanrıkulu", "title": { "tr": "IIB Kurucusu", "en": "IIB Founder" } }
+    ],
+    "verify": true
+  }
+}

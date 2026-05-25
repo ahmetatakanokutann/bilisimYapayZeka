@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Sayfa Bulunamadı | Yeditepe AI</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+  
+  <div id="site-header"></div>
+
+  <main class="flex-grow container section flex flex-col items-center justify-center text-center">
+    <div class="relative">
+      <h1 class="text-[10rem] md:text-[15rem] font-bold leading-none opacity-5 select-none">404</h1>
+      <div class="absolute inset-0 flex flex-col items-center justify-center">
+        <h2 class="text-4xl md:text-6xl font-bold mb-4 gradient-text" data-i18n="404_title">Sayfa Bulunamadı</h2>
+        <p class="text-xl text-[--c-muted] mb-12 max-w-md" data-i18n="404_desc">Aradığınız sayfa mevcut değil veya taşınmış olabilir. Yapay zekamız bile bu sayfayı bulamadı.</p>
+        <a href="index.html" class="btn-primary px-8 py-4 text-lg group">
+          <i data-lucide="home" class="mr-2 w-5 h-5"></i>
+          <span data-i18n="back_to_home">Ana Sayfaya Dön</span>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

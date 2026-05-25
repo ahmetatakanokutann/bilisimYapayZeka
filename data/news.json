@@ -1,0 +1,20 @@
+[
+  {
+    "id": "opening-event",
+    "date": "2026-03-30",
+    "title": {
+      "tr": "Türkiye ve Almanya Yapay Zekâda Güçlerini Birleştirdi",
+      "en": "Türkiye and Germany Join Forces in Artificial Intelligence"
+    },
+    "excerpt": {
+      "tr": "Yeditepe Üniversitesi, Fraunhofer IOSB ve IIB işbirliği ile Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi kapılarını açtı.",
+      "en": "Yeditepe University, in cooperation with Fraunhofer IOSB and IIB, opened the doors of the Informatics and Artificial Intelligence Applications and Research Center."
+    },
+    "body": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü'nde gerçekleştirilen açılış törenine üniversite yönetimi, Fraunhofer IOSB ve IIB temsilcileri ile Teknopark İstanbul yetkilileri katıldı. Merkez; Endüstri 4.0, Veri Yönetimi, Endüstriyel Yapay Zeka ve Dijital İkizler gibi kritik alanlarda uygulamalı araştırmalara odaklanacak. Bedrettin Dalan ve Prof. Dr. Mehmet Durman'ın katılımıyla gerçekleşen törende, bu işbirliğinin Türkiye'nin dijital dönüşümüne büyük katkı sağlayacağı vurgulandı.",
+      "en": "The opening ceremony held at Yeditepe University Technology Hub was attended by university management, Fraunhofer IOSB and IIB representatives, and Teknopark Istanbul officials. The center will focus on applied research in critical areas such as Industry 4.0, Data Management, Industrial AI, and Digital Twins. At the ceremony, held with the participation of Bedrettin Dalan and Prof. Dr. Mehmet Durman, it was emphasized that this cooperation will significantly contribute to Türkiye's digital transformation."
+    },
+    "image": "assets/img/opening-event.jpg",
+    "verify": true
+  }
+]

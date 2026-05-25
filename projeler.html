@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeler | Yeditepe AI</title>
+  <meta name="description" content="Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi ortak projeleri ve başarı hikayeleri.">
+  
+  <!-- SEO & Social -->
+  <link rel="canonical" href="https://ahmetatakanokutann.github.io/bilisimYapayZeka/projeler.html">
+  <meta property="og:title" content="Projeler | Yeditepe AI">
+  <meta property="og:description" content="Uygulamalı yapay zeka projelerimizi keşfedin.">
+  <meta property="og:image" content="https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/opening-event.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Projects Specific Styles */
+    .filter-btn.active {
+      background-color: var(--c-navy);
+      color: white;
+      border-color: var(--c-navy);
+    }
+  </style>
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+
+  <!-- Shared Header -->
+  <div id="site-header"></div>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+    <!-- Page Header -->
+    <section class="dark-section py-20 md:py-32">
+      <div class="container text-center">
+        <h1 class="text-4xl md:text-6xl mb-6">
+          <span class="gradient-text" data-i18n="nav_projects">Projeler</span>
+        </h1>
+        <p class="text-xl text-[--c-on-dark] opacity-90 max-w-3xl mx-auto leading-relaxed" data-i18n="projects_intro">
+          Fraunhofer IOSB, IIB ve endüstriyel paydaşlarımızla yürüttüğümüz yenilikçi projelerle yarının çözümlerini üretiyoruz.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="py-12 bg-[--c-surface] sticky top-20 md:top-24 z-40 border-b border-[--c-border]">
+      <div class="container">
+        <div class="flex flex-wrap items-center justify-center gap-3">
+          <button class="filter-btn btn-ghost !py-2 !px-5 rounded-full active" data-filter="all" data-i18n="filter_all">Tümü</button>
+          <button class="filter-btn btn-ghost !py-2 !px-5 rounded-full" data-filter="Fraunhofer IOSB">Fraunhofer IOSB</button>
+          <button class="filter-btn btn-ghost !py-2 !px-5 rounded-full" data-filter="IIB">IIB</button>
+          <button class="filter-btn btn-ghost !py-2 !px-5 rounded-full" data-filter="industry-4" data-i18n="filter_industry4">Endüstri 4.0</button>
+          <button class="filter-btn btn-ghost !py-2 !px-5 rounded-full" data-filter="green-transformation" data-i18n="filter_green">Yeşil Dönüşüm</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section">
+      <div class="container">
+        <div id="projects-page-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div id="project-modal" class="hidden fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto relative animate-in fade-in zoom-in duration-300">
+      <button id="modal-close" class="absolute top-6 right-6 p-2 rounded-full bg-[--c-surface] hover:bg-[--c-border] transition-colors" aria-label="Kapat">
+        <i data-lucide="x"></i>
+      </button>
+      <div id="modal-content" class="p-8 md:p-12">
+        <!-- Dynamically filled -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Shared Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "industry-4",
+    "icon": "factory",
+    "title": { "tr": "Endüstri 4.0", "en": "Industry 4.0" },
+    "desc": {
+      "tr": "Üretim süreçlerinin dijitalleşmesi ve akıllı fabrikaların inşası.",
+      "en": "Digitization of production processes and construction of smart factories."
+    }
+  },
+  {
+    "id": "data-management",
+    "icon": "database",
+    "title": { "tr": "Veri Yönetimi", "en": "Data Management" },
+    "desc": {
+      "tr": "Büyük verinin işlenmesi, depolanması ve stratejik karar destek sistemlerine dönüştürülmesi.",
+      "en": "Processing, storing big data and transforming it into strategic decision support systems."
+    }
+  },
+  {
+    "id": "industrial-ai",
+    "icon": "cpu",
+    "title": { "tr": "Endüstriyel Yapay Zeka", "en": "Industrial AI" },
+    "desc": {
+      "tr": "Sanayi uygulamaları için özelleştirilmiş derin öğrenme ve makine öğrenmesi algoritmaları.",
+      "en": "Deep learning and machine learning algorithms customized for industrial applications."
+    }
+  },
+  {
+    "id": "digital-twins",
+    "icon": "layers",
+    "title": { "tr": "Dijital İkizler", "en": "Digital Twins" },
+    "desc": {
+      "tr": "Fiziksel varlıkların dijital kopyaları üzerinden simülasyon ve optimizasyon.",
+      "en": "Simulation and optimization through digital replicas of physical assets."
+    }
+  },
+  {
+    "id": "robotics",
+    "icon": "bot",
+    "title": { "tr": "Robotik", "en": "Robotics" },
+    "desc": {
+      "tr": "Otonom sistemler ve insan-robot etkileşimi üzerine ileri araştırmalar.",
+      "en": "Advanced research on autonomous systems and human-robot interaction."
+    }
+  },
+  {
+    "id": "green-transformation",
+    "icon": "leaf",
+    "title": { "tr": "Yeşil Dönüşüm", "en": "Green Transformation" },
+    "desc": {
+      "tr": "Sürdürülebilirlik odaklı, enerji verimli yapay zeka çözümleri.",
+      "en": "Sustainability-focused, energy-efficient AI solutions."
+    }
+  }
+]

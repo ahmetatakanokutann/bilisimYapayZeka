@@ -1,0 +1,171 @@
+{
+  "brand": {
+    "short": "Yeditepe AI",
+    "full": {
+      "tr": "Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi",
+      "en": "Informatics and Artificial Intelligence Applications and Research Center"
+    }
+  },
+  "nav": [
+    { "key": "home", "href": "index.html", "label": { "tr": "Ana Sayfa", "en": "Home" } },
+    { "key": "about", "href": "hakkimizda.html", "label": { "tr": "Hakkımızda", "en": "About" } },
+    { "key": "research", "href": "arastirma.html", "label": { "tr": "Araştırma", "en": "Research" } },
+    { "key": "projects", "href": "projeler.html", "label": { "tr": "Projeler", "en": "Projects" } },
+    { "key": "team", "href": "ekip.html", "label": { "tr": "Ekip", "en": "Team" } },
+    { "key": "news", "href": "haberler.html", "label": { "tr": "Haberler", "en": "News" } },
+    { "key": "contact", "href": "iletisim.html", "label": { "tr": "İletişim", "en": "Contact" } }
+  ],
+  "strings": {
+    "hero_title_part1": { "tr": "Yapay Zeka ile", "en": "Shaping the Future" },
+    "hero_title_part2": { "tr": "Geleceği Şekillendiriyoruz", "en": "with Artificial Intelligence" },
+    "hero_subtitle": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü'nde, küresel ortaklıklarla uygulamalı yapay zeka çözümleri geliştiriyoruz.",
+      "en": "Developing applied AI solutions through global partnerships at Yeditepe University Technology Hub."
+    },
+    "hero_cta": {
+      "tr": "Projelerimizi İnceleyin",
+      "en": "Explore Our Projects"
+    },
+    "hero_secondary_cta": {
+      "tr": "İletişime Geçin",
+      "en": "Contact Us"
+    },
+    "intro_text": {
+      "tr": "Türkiye'nin teknoloji ekosisteminin kalbinde, Teknopark İstanbul'da inovasyonun sınırlarını zorluyoruz.",
+      "en": "At the heart of Turkey's technology ecosystem, we push the boundaries of innovation at Teknopark Istanbul."
+    },
+    "section_research_title": { "tr": "Araştırma Odak Alanlarımız", "en": "Our Research Focus Areas" },
+    "section_research_subtitle": { 
+      "tr": "Endüstriyel dönüşümden yeşil geleceğe, yapay zekayı hayatın her alanına entegre ediyoruz.",
+      "en": "From industrial transformation to a green future, we integrate AI into every aspect of life."
+    },
+    "stat_focus": { "tr": "Odak Alanı", "en": "Focus Areas" },
+    "stat_partners": { "tr": "Stratejik Ortak", "en": "Strategic Partners" },
+    "stat_foundation": { "tr": "Kuruluş", "en": "Foundation" },
+    "stat_units": { "tr": "Ana Birim", "en": "Core Units" },
+    "section_projects_title": { "tr": "Öne Çıkan Projeler", "en": "Featured Projects" },
+    "section_projects_subtitle": {
+      "tr": "Küresel ortaklarımızla gerçekleştirdiğimiz uygulamalı yapay zeka projeleri.",
+      "en": "Applied AI projects realized with our global partners."
+    },
+    "section_partners_title": { "tr": "Stratejik Ortaklarımız", "en": "Strategic Partners" },
+    "section_news_title": { "tr": "Son Haberler", "en": "Latest News" },
+    "read_more": { "tr": "Devamını Oku", "en": "Read More" },
+    "cta_home_title": { "tr": "Geleceği Birlikte İnşa Edelim", "en": "Building the Future Together" },
+    "cta_home_subtitle": {
+      "tr": "Akıllı sistemler ve sürdürülebilir teknoloji çözümleri için bizimle iletişime geçin.",
+      "en": "Contact us for smart systems and sustainable technology solutions."
+    },
+    "view_all": { "tr": "Tümünü Gör", "en": "View All" },
+    "nav_title": { "tr": "Menü", "en": "Menu" },
+    "contact_title": { "tr": "İletişim", "en": "Contact" },
+    "nav_about": { "tr": "Hakkımızda", "en": "About Us" },
+    "mission_title": { "tr": "Misyonumuz", "en": "Our Mission" },
+    "vision_title": { "tr": "Vizyonumuz", "en": "Our Vision" },
+    "hub_title": { "tr": "Yeditepe Üniversitesi Teknoloji Üssü", "en": "Yeditepe University Technology Hub" },
+    "hub_subtitle": { 
+      "tr": "Teknopark İstanbul kampüsümüzde faaliyet gösteren 3 ana birimimizle inovasyona yön veriyoruz.", 
+      "en": "We drive innovation with our 3 main units operating in our Teknopark Istanbul campus." 
+    },
+    "opening_participants": { "tr": "Açılış Katılımcıları", "en": "Opening Participants" },
+    "about_cta_title": { "tr": "İşbirliği ve Araştırma İçin", "en": "For Collaboration and Research" },
+    "about_cta_desc": { 
+      "tr": "Merkezimizle ortak projeler yürütmek veya akademik işbirliği yapmak için bize ulaşın.", 
+      "en": "Contact us to conduct joint projects with our center or for academic cooperation." 
+    },
+    "nav_research": { "tr": "Araştırma", "en": "Research" },
+    "research_intro": { 
+      "tr": "Endüstriyel ihtiyaçlara yönelik, uygulamalı yapay zeka araştırmalarımızla dijital dönüşüme yön veriyoruz.", 
+      "en": "We lead digital transformation with our applied AI research tailored to industrial needs." 
+    },
+    "research_applied": { "tr": "Uygulamalı Çözümler", "en": "Applied Solutions" },
+    "research_academic": { "tr": "Akademik Derinlik", "en": "Academic Depth" },
+    "fraunhofer_title": { "tr": "Fraunhofer Metodolojisi ile Uygulamalı Araştırma", "en": "Applied Research with Fraunhofer Methodology" },
+    "fraunhofer_desc": { 
+      "tr": "Avrupa'nın en büyük uygulamalı araştırma kuruluşu olan Fraunhofer IOSB ile yaptığımız stratejik ortaklık sayesinde, akademik teoriyi endüstriyel başarı hikayelerine dönüştürüyoruz.", 
+      "en": "Through our strategic partnership with Fraunhofer IOSB, Europe's largest applied research organization, we transform academic theory into industrial success stories." 
+    },
+    "fraunhofer_point1": { "tr": "Sanayi ile doğrudan entegrasyon", "en": "Direct integration with industry" },
+    "fraunhofer_point2": { "tr": "Uluslararası standartlarda veri yönetimi", "en": "Data management at international standards" },
+    "fraunhofer_point3": { "tr": "Hızlı prototipleme ve saha uygulamaları", "en": "Rapid prototyping and field applications" },
+    "research_cta_title": { "tr": "Odak Alanlarımız Hakkında Detaylı Bilgi Alın", "en": "Get Detailed Information About Our Focus Areas" },
+    "nav_projects": { "tr": "Projeler", "en": "Projects" },
+    "projects_intro": { 
+      "tr": "Fraunhofer IOSB, IIB ve endüstriyel paydaşlarımızla yürüttüğümüz yenilikçi projelerle yarının çözümlerini üretiyoruz.", 
+      "en": "We produce tomorrow's solutions with innovative projects conducted with Fraunhofer IOSB, IIB, and our industrial stakeholders." 
+    },
+    "filter_all": { "tr": "Tümü", "en": "All" },
+    "filter_industry4": { "tr": "Endüstri 4.0", "en": "Industry 4.0" },
+    "filter_green": { "tr": "Yeşil Dönüşüm", "en": "Green Transformation" },
+    "verify_notice": { "tr": "Not: Gösterilen projeler örnek içeriktir ve onay beklemektedir.", "en": "Note: Projects shown are sample content and pending approval." },
+    "project_details": { "tr": "Proje Detayları", "en": "Project Details" },
+    "project_desc_placeholder": { 
+      "tr": "Bu proje, endüstriyel verimliliği artırmak ve sürdürülebilir teknoloji çözümleri sunmak amacıyla stratejik ortaklarımızla yürütülmektedir. Detaylı teknik dökümantasyon ve sonuç raporları onay sürecindedir.", 
+      "en": "This project is conducted with our strategic partners to increase industrial efficiency and provide sustainable technology solutions. Detailed technical documentation and final reports are in the approval process." 
+    },
+    "projects_empty": {
+      "tr": "Şu anda yayınlanmış bir proje bulunmuyor. Fraunhofer IOSB iş birliği kapsamındaki çalışmalarımız sürüyor; yakında burada paylaşacağız.",
+      "en": "There are no published projects yet. Our work under the Fraunhofer IOSB collaboration is ongoing and will be shared here soon."
+    },
+    "projects_empty": {
+      "tr": "Şu anda yayınlanmış bir proje bulunmuyor. Fraunhofer IOSB iş birliği kapsamındaki çalışmalarımız sürüyor; yakında burada paylaşacağız.",
+      "en": "There are no published projects yet. Our work under the Fraunhofer IOSB collaboration is ongoing and will be shared here soon."
+    },
+    "nav_team": { "tr": "Ekibimiz", "en": "Our Team" },
+    "team_intro": { 
+      "tr": "Disiplinlerarası uzmanlığa sahip akademik ve teknik kadromuzla yapay zeka alanında inovatif çözümler üretiyoruz.", 
+      "en": "We produce innovative solutions in the field of AI with our academic and technical staff having interdisciplinary expertise." 
+    },
+    "team_leadership": { "tr": "Yönetim", "en": "Leadership" },
+    "team_research": { "tr": "Araştırmacılar", "en": "Researchers" },
+    "team_join_title": { "tr": "Ekibimize Katılın", "en": "Join Our Team" },
+    "team_join_desc": { "tr": "Yapay zeka projelerimizde araştırmacı veya stajyer olarak yer almak ister misiniz?", "en": "Would you like to take part in our AI projects as a researcher or intern?" },
+    "verify_tag": { "tr": "Onay Bekliyor", "en": "Pending Approval" },
+    "nav_news": { "tr": "Haberler & Duyurular", "en": "News & Announcements" },
+    "news_intro": { 
+      "tr": "Merkezimizdeki teknolojik gelişmeler, etkinlikler ve akademik başarılarımızı buradan takip edebilirsiniz.", 
+      "en": "You can follow the technological developments, events, and academic achievements at our center from here." 
+    },
+    "back_to_news": { "tr": "Haberlere Dön", "en": "Back to News" },
+    "nav_contact": { "tr": "İletişim", "en": "Contact" },
+    "contact_intro": { 
+      "tr": "Sorularınız, işbirliği talepleriniz veya ziyaret randevuları için bize dilediğiniz zaman ulaşabilirsiniz.", 
+      "en": "You can reach us anytime for questions, collaboration requests, or visit appointments." 
+    },
+    "contact_info_title": { "tr": "İletişim Bilgileri", "en": "Contact Information" },
+    "contact_address_label": { "tr": "Adres", "en": "Address" },
+    "contact_email_label": { "tr": "E-posta", "en": "Email" },
+    "contact_phone_label": { "tr": "Telefon", "en": "Phone" },
+    "contact_social": { "tr": "Sosyal Medya", "en": "Social Media" },
+    "contact_form_title": { "tr": "Bize Mesaj Gönderin", "en": "Send Us a Message" },
+    "form_name": { "tr": "Ad Soyad", "en": "Full Name" },
+    "form_name_placeholder": { "tr": "Adınız ve soyadınız", "en": "Your name and surname" },
+    "form_email": { "tr": "E-posta", "en": "Email" },
+    "form_email_placeholder": { "tr": "ornek@yeditepe.edu.tr", "en": "example@yeditepe.edu.tr" },
+    "form_message": { "tr": "Mesajınız", "en": "Your Message" },
+    "form_message_placeholder": { "tr": "Size nasıl yardımcı olabiliriz?", "en": "How can we help you?" },
+    "form_submit": { "tr": "Mesajı Gönder", "en": "Send Message" },
+    "form_success": { "tr": "Mesajınız başarıyla iletildi. En kısa sürede size döneceğiz.", "en": "Your message has been sent successfully. We will get back to you soon." },
+    "form_error": { "tr": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.", "en": "An error occurred while sending the message. Please try again." },
+    "skip_to_content": { "tr": "İçeriğe atla", "en": "Skip to content" },
+    "404_title": { "tr": "Sayfa Bulunamadı", "en": "Page Not Found" },
+    "404_desc": { "tr": "Aradığınız sayfa mevcut değil veya taşınmış olabilir. Yapay zekamız bile bu sayfayı bulamadı.", "en": "The page you are looking for does not exist or may have been moved. Even our AI couldn't find this page." },
+    "back_to_home": { "tr": "Ana Sayfaya Dön", "en": "Back to Home" },
+    "nav_home": { "tr": "Ana Sayfa", "en": "Home" }
+  },
+  "contact": {
+    "address": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü — Teknopark İstanbul, Pendik/İstanbul",
+      "en": "Yeditepe University Technology Hub — Teknopark Istanbul, Pendik/Istanbul"
+    },
+    "email": "ai@yeditepe.edu.tr",
+    "phone": "+90 (216) 578 00 00",
+    "mapEmbed": "",
+    "verify": true
+  },
+  "social": {
+    "linkedin": "",
+    "x": "",
+    "youtube": ""
+  }
+}

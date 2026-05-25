@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim | Yeditepe AI</title>
+  <meta name="description" content="Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi ile iletişime geçin. Adres, e-posta ve ulaşım bilgileri.">
+  
+  <!-- SEO & Social -->
+  <link rel="canonical" href="https://ahmetatakanokutann.github.io/bilisimYapayZeka/iletisim.html">
+  <meta property="og:title" content="İletişim | Yeditepe AI">
+  <meta property="og:description" content="Merkezimizle projeleriniz için iletişime geçin.">
+  <meta property="og:image" content="https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/opening-event.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+  
+  <a href="#main-content" class="skip-link sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:bg-[--c-accent] focus:text-white focus:p-4 focus:rounded-xl" data-i18n="skip_to_content">İçeriğe atla</a>
+
+  <!-- Shared Header -->
+  <div id="site-header"></div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="flex-grow">
+    
+    <!-- Page Header -->
+    <section class="dark-section py-20 md:py-32">
+      <div class="container text-center">
+        <h1 class="text-4xl md:text-6xl mb-6">
+          <span class="gradient-text" data-i18n="nav_contact">İletişim</span>
+        </h1>
+        <p class="text-xl text-[--c-on-dark] opacity-90 max-w-3xl mx-auto leading-relaxed" data-i18n="contact_intro">
+          Sorularınız, işbirliği talepleriniz veya ziyaret randevuları için bize dilediğiniz zaman ulaşabilirsiniz.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Grid -->
+    <section class="section">
+      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-16">
+        
+        <!-- Info Column -->
+        <div>
+          <h2 class="text-3xl font-bold mb-8 text-[--c-navy]" data-i18n="contact_info_title">İletişim Bilgileri</h2>
+          <div id="contact-info-list" class="flex flex-col gap-10">
+            <!-- Dynamically filled by render.js -->
+          </div>
+
+          <!-- Social Links -->
+          <div class="mt-16 pt-10 border-t border-[--c-border]">
+            <h4 class="font-bold text-[--c-navy] mb-6 uppercase tracking-wider text-xs" data-i18n="contact_social">Sosyal Medya</h4>
+            <div class="flex gap-4">
+              <a href="#" class="w-12 h-12 rounded-full bg-[--c-surface] flex items-center justify-center text-[--c-navy] hover:bg-[--c-accent] hover:text-white transition-all"><i data-lucide="linkedin"></i></a>
+              <a href="#" class="w-12 h-12 rounded-full bg-[--c-surface] flex items-center justify-center text-[--c-navy] hover:bg-[--c-accent] hover:text-white transition-all"><i data-lucide="twitter"></i></a>
+              <a href="#" class="w-12 h-12 rounded-full bg-[--c-surface] flex items-center justify-center text-[--c-navy] hover:bg-[--c-accent] hover:text-white transition-all"><i data-lucide="youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="card p-8 md:p-12 shadow-2xl border-none">
+          <h3 class="text-2xl font-bold mb-8 text-[--c-navy]" data-i18n="contact_form_title">Bize Mesaj Gönderin</h3>
+          <form id="contact-form" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-bold text-[--c-navy] mb-2" data-i18n="form_name">Ad Soyad</label>
+              <input type="text" id="name" name="name" required class="w-full px-5 py-4 bg-[--c-surface] border border-[--c-border] rounded-xl focus:outline-none focus:border-[--c-accent] transition-colors" data-i18n-placeholder="form_name_placeholder" placeholder="Adınız ve soyadınız">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-bold text-[--c-navy] mb-2" data-i18n="form_email">E-posta</label>
+              <input type="email" id="email" name="email" required class="w-full px-5 py-4 bg-[--c-surface] border border-[--c-border] rounded-xl focus:outline-none focus:border-[--c-accent] transition-colors" data-i18n-placeholder="form_email_placeholder" placeholder="ornek@yeditepe.edu.tr">
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-bold text-[--c-navy] mb-2" data-i18n="form_message">Mesajınız</label>
+              <textarea id="message" name="message" rows="5" required class="w-full px-5 py-4 bg-[--c-surface] border border-[--c-border] rounded-xl focus:outline-none focus:border-[--c-accent] transition-colors" data-i18n-placeholder="form_message_placeholder" placeholder="Size nasıl yardımcı olabiliriz?"></textarea>
+            </div>
+            <button type="submit" class="btn-primary w-full py-4 text-lg">
+              <span data-i18n="form_submit">Mesajı Gönder</span>
+              <i data-lucide="send" class="ml-2 w-5 h-5"></i>
+            </button>
+            <div id="form-status" class="mt-6 p-4 rounded-xl text-sm hidden"></div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section !pt-0">
+      <div class="container">
+        <div id="map-container" class="w-full h-[500px] rounded-[2.5rem] overflow-hidden shadow-xl border-4 border-white">
+          <!-- Dynamically filled by render.js -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

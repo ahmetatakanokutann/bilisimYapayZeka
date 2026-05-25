@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:x.com)",
+      "WebFetch(domain:confucius.yeditepe.edu.tr)",
+      "WebFetch(domain:yuctec.com)",
+      "WebSearch",
+      "WebFetch(domain:yeditepe.edu.tr)",
+      "WebFetch(domain:www.aa.com.tr)",
+      "PowerShell(Get-Command *)",
+      "PowerShell(python -m http.server 8000)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:8000/index.html\" -UseBasicParsing -TimeoutSec 5; \"HTTP $\\($r.StatusCode\\) - index.html OK \\($\\($r.RawContentLength\\) bytes\\)\" } catch { \"HATA: $\\($_.Exception.Message\\)\" }; try { $j = Invoke-WebRequest -Uri \"http://localhost:8000/data/site.json\" -UseBasicParsing -TimeoutSec 5; \"HTTP $\\($j.StatusCode\\) - site.json OK\" } catch { \"JSON HATA: $\\($_.Exception.Message\\)\" })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Ahmet Atakan Okutan\\\\Desktop\\\\suleHocaWbsitesi\" -File | Where-Object { $_.Extension -in '.mp4','.png','.jpg','.jpeg','.svg','.webp' } | Select-Object Name, @{N='MB';E={[math]::Round\\($_.Length/1MB,2\\)}} | Format-Table -AutoSize)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:de.linkedin.com)",
+      "WebFetch(domain:www.iib-enterprises.eu)",
+      "WebFetch(domain:www.fraunhofer.de)",
+      "WebFetch(domain:www.teknoparkistanbul.com.tr)",
+      "PowerShell(Add-Type -AssemblyName System.Drawing; $f=\"C:\\\\Users\\\\Ahmet Atakan Okutan\\\\Desktop\\\\suleHocaWbsitesi\\\\assets\\\\img\\\\logo-full.png\"; $i=[System.Drawing.Image]::FromFile\\($f\\); \"logo-full.png: $\\($i.Width\\) x $\\($i.Height\\) \\(oran $\\([math]::Round\\($i.Width/$i.Height,2\\)\\):1\\)\"; $i.Dispose\\(\\))",
+      "PowerShell(Remove-Item *)"
+    ]
+  }
+}

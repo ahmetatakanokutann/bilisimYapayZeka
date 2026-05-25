@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/hakkimizda.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/arastirma.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/projeler.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/ekip.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/haberler.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ahmetatakanokutann.github.io/bilisimYapayZeka/iletisim.html</loc>
+    <priority>0.6</priority>
+  </url>
+</urlset>

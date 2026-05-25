@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkımızda | Yeditepe AI</title>
+  <meta name="description" content="Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi misyonu, vizyonu ve kuruluş hikayesi.">
+  
+  <!-- SEO & Social -->
+  <link rel="canonical" href="https://ahmetatakanokutann.github.io/bilisimYapayZeka/hakkimizda.html">
+  <meta property="og:title" content="Hakkımızda | Yeditepe AI">
+  <meta property="og:description" content="Merkezimizin misyonu ve vizyonu hakkında bilgi edinin.">
+  <meta property="og:image" content="https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/opening-event.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-[--c-bg] text-[--c-text] flex flex-col min-h-screen">
+
+  <!-- Shared Header -->
+  <div id="site-header"></div>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    
+    <!-- Page Header -->
+    <section class="dark-section py-20 md:py-32">
+      <div class="container text-center">
+        <h1 class="text-4xl md:text-6xl mb-6">
+          <span class="gradient-text" data-i18n="nav_about">Hakkımızda</span>
+        </h1>
+        <p id="about-intro" class="text-xl text-[--c-on-dark] opacity-90 max-w-3xl mx-auto leading-relaxed">
+          <!-- Dynamically filled -->
+        </p>
+      </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="section">
+      <div class="container grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div class="card bg-[--c-surface] border-none p-10">
+          <div class="w-12 h-12 rounded-xl bg-white flex items-center justify-center text-[--c-accent] mb-6 shadow-sm">
+            <i data-lucide="target"></i>
+          </div>
+          <h2 class="text-3xl mb-4" data-i18n="mission_title">Misyonumuz</h2>
+          <p id="about-mission" class="text-lg text-[--c-muted] leading-relaxed">
+            <!-- Dynamically filled -->
+          </p>
+        </div>
+        <div class="card bg-[--c-navy] border-none p-10 text-white">
+          <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-[--c-accent-2] mb-6">
+            <i data-lucide="eye"></i>
+          </div>
+          <h2 class="text-3xl mb-4" data-i18n="vision_title">Vizyonumuz</h2>
+          <p id="about-vision" class="text-lg text-white/80 leading-relaxed">
+            <!-- Dynamically filled -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Hub & 3 Units -->
+    <section class="section bg-[--c-surface]">
+      <div class="container text-center mb-16">
+        <h2 class="text-4xl mb-4" data-i18n="hub_title">Yeditepe Üniversitesi Teknoloji Üssü</h2>
+        <p class="text-lg text-[--c-muted] max-w-2xl mx-auto" data-i18n="hub_subtitle">Teknopark İstanbul kampüsümüzde faaliyet gösteren 3 ana birimimizle inovasyona yön veriyoruz.</p>
+      </div>
+      <div id="units-grid" class="container grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Dynamically filled by render.js -->
+      </div>
+    </section>
+
+    <!-- Opening Event -->
+    <section class="section">
+      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <h2 id="event-title" class="text-4xl mb-6"><!-- Dynamically filled --></h2>
+          <p id="event-desc" class="text-lg text-[--c-muted] mb-8 leading-relaxed"><!-- Dynamically filled --></p>
+          <div class="bg-[--c-surface] rounded-2xl p-8 border border-[--c-border]">
+             <h4 class="font-bold mb-4 uppercase tracking-wider text-xs text-[--c-navy]" data-i18n="opening_participants">Açılış Katılımcıları</h4>
+             <ul id="event-participants" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+               <!-- Dynamically filled -->
+             </ul>
+          </div>
+        </div>
+        <div class="rounded-[2rem] overflow-hidden shadow-2xl">
+          <img src="assets/img/opening-event.jpg" alt="Yeditepe Üniversitesi Teknoloji Üssü açılışı" class="w-full h-auto object-cover" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section">
+      <div class="container text-center">
+        <div class="max-w-3xl mx-auto bg-gradient-to-br from-[--c-accent] to-[--c-accent-3] p-1 rounded-[2rem]">
+          <div class="bg-white rounded-[1.9rem] p-12 md:p-20">
+            <h2 class="text-3xl md:text-4xl mb-6 text-[--c-navy]" data-i18n="about_cta_title">İşbirliği ve Araştırma İçin</h2>
+            <p class="text-lg text-[--c-muted] mb-10" data-i18n="about_cta_desc">Merkezimizle ortak projeler yürütmek veya akademik işbirliği yapmak için bize ulaşın.</p>
+            <a href="iletisim.html" class="btn-primary" data-i18n="hero_secondary_cta">İletişime Geçin</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared Footer -->
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/i18n.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/render.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
