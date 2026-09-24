@@ -1,0 +1,198 @@
+[
+  {
+    "id": "opening-ceremony",
+    "category": "opening",
+    "image": "assets/img/opening-ceremony.jpg",
+    "title": {
+      "tr": "Teknopark İstanbul Açılış Töreni ve Kurdele Kesimi",
+      "en": "Opening Ceremony and Ribbon Cutting at Teknopark Istanbul"
+    },
+    "caption": {
+      "tr": "Bilişim ve Yapay Zekâ Uygulama ve Araştırma Merkezi resmi açılış töreni. Yeditepe Üniversitesi Kurucu ve Onursal Başkanı Bedrettin Dalan, Rektör Prof. Dr. Mehmet Durman, Rektör Yardımcısı Prof. Dr. Oğuz Bayat, Fraunhofer IOSB Müdürü Dr. Olaf Sauer, IIB Kurucusu Recep Tanrıkulu, Doç. Dr. Faik Tanrıkulu ve Teknopark İstanbul yöneticileri açılış kurdelesini birlikte kesti.",
+      "en": "Official opening ceremony of the Informatics and AI Research Center. Yeditepe University Founding and Honorary President Bedrettin Dalan, Rector Prof. Dr. Mehmet Durman, Vice Rector Prof. Dr. Oğuz Bayat, Fraunhofer IOSB Director Dr. Olaf Sauer, IIB Founder Recep Tanrıkulu, Assoc. Prof. Dr. Faik Tanrıkulu, and Teknopark Istanbul leaders cut the opening ribbon together."
+    }
+  },
+  {
+    "id": "opening-fraunhofer-hall",
+    "category": "opening",
+    "image": "assets/img/fraunhofer-opening-hall.jpg",
+    "title": {
+      "tr": "Teknopark İstanbul Açılış Töreni ve Protokol Katılımı",
+      "en": "Teknopark Istanbul Opening Ceremony and Protocol Assembly"
+    },
+    "caption": {
+      "tr": "Bilişim ve Yapay Zekâ Uygulama ve Araştırma Merkezi açılışında Prof. Dr. Oğuz Bayat kürsüde merkez vizyonunu sunarken; protokolde Kurucu ve Onursal Başkan Bedrettin Dalan, Fraunhofer IOSB Direktörü Dr. Olaf Sauer, Rektör Prof. Dr. Mehmet Durman ve Teknopark yönetimi yer aldı.",
+      "en": "During the opening of the Informatics and AI Research Center, Prof. Dr. Oğuz Bayat presents the strategic vision while Founding and Honorary President Bedrettin Dalan, Fraunhofer IOSB Director Dr. Olaf Sauer, Rector Prof. Dr. Mehmet Durman, and Teknopark leadership attend in the front row."
+    }
+  },
+  {
+    "id": "opening-fraunhofer-germany",
+    "category": "opening",
+    "image": "assets/img/fraunhofer-germany-dalan.jpeg",
+    "title": {
+      "tr": "Almanya Fraunhofer Enstitüsü ile Stratejik İş Birliği İmzası",
+      "en": "Strategic Cooperation Agreement with Fraunhofer Institute in Germany"
+    },
+    "caption": {
+      "tr": "Kurucu ve Onursal Başkanımız Bedrettin Dalan ve Rektör Yardımcımız Prof. Dr. Oğuz Bayat, Stuttgart Future Work Laboratuvarı'nda Almanya'nın öncü araştırma kurumu Fraunhofer Enstitüsü - IIB ile Teknopark İstanbul Yapay Zekâ Merkezi ve Endüstri 4.0 laboratuvarının kuruluş anlaşmasını imzaladı.",
+      "en": "Founding and Honorary President Bedrettin Dalan and Vice Rector Prof. Dr. Oğuz Bayat signed the partnership agreement establishing the AI Center and Industry 4.0 Lab at Teknopark Istanbul with Germany's leading research institute Fraunhofer - IIB at Stuttgart Future Work Laboratory."
+    }
+  },
+  {
+    "id": "opening-fraunhofer-olaf-sauer",
+    "category": "opening",
+    "image": "assets/img/fraunhofer-olaf-sauer.jpg",
+    "title": {
+      "tr": "Fraunhofer IOSB Direktörü Dr. Olaf Sauer’in Açılış Konuşması",
+      "en": "Keynote Address by Fraunhofer IOSB Director Dr. Olaf Sauer"
+    },
+    "caption": {
+      "tr": "Fraunhofer IOSB Direktörü Dr. Olaf Sauer, merkez açılışında Türkiye ile Almanya arasında endüstriyel yapay zekâ, veri yönetimi, kestirimci bakım ve dijital ikiz alanlarındaki stratejik vizyonu aktardı.",
+      "en": "Fraunhofer IOSB Director Dr. Olaf Sauer addressed the opening ceremony, elaborating on the strategic roadmap for industrial AI, data management, predictive maintenance, and digital twin technologies between Germany and Türkiye."
+    }
+  },
+  {
+    "id": "opening-fraunhofer-dalan-discussion",
+    "category": "opening",
+    "image": "assets/img/fraunhofer-dalan-consultation.jpg",
+    "title": {
+      "tr": "Bedrettin Dalan ve Dr. Olaf Sauer Ar-Ge İstişaresi",
+      "en": "R&D Consultation Between Bedrettin Dalan and Dr. Olaf Sauer"
+    },
+    "caption": {
+      "tr": "Kurucu Başkan Bedrettin Dalan ve Fraunhofer IOSB Direktörü Dr. Olaf Sauer törende, fikirden ürüne uzanan yapay zekâ Ar-Ge projeleri ve uluslararası sertifikasyon süreçleri üzerine istişarelerde bulundu.",
+      "en": "Founding President Bedrettin Dalan and Fraunhofer IOSB Director Dr. Olaf Sauer exchanged insights on idea-to-product AI research pipelines and international certification standards."
+    }
+  },
+  {
+    "id": "opening-presentation",
+    "category": "opening",
+    "image": "assets/img/opening-bayat.png",
+    "title": {
+      "tr": "Yapay Zekâ ve Girişim Stüdyosu Vizyon Sunumu",
+      "en": "AI and Venture Studio Vision Keynote"
+    },
+    "caption": {
+      "tr": "Prof. Dr. Oğuz Bayat’ın merkez vizyonu, sanayi odaklı yapay zekâ uygulamaları, teknoloji transferi ve Girişim Stüdyosu hedeflerini paylaştığı açılış konuşması.",
+      "en": "Prof. Dr. Oğuz Bayat’s keynote presenting the center’s vision, industrial AI applications, technology transfer, and strategic goals for the Venture Studio."
+    }
+  },
+  {
+    "id": "opening-lab-tour",
+    "category": "opening",
+    "image": "assets/img/opening-lab-tour.png",
+    "title": {
+      "tr": "Merkez Laboratuvarları ve Girişimcilik Projeleri İncelemesi",
+      "en": "Tour of Center Laboratories and Entrepreneurial Projects"
+    },
+    "caption": {
+      "tr": "Açılış sonrasında Bedrettin Dalan, Dr. Olaf Sauer ve heyet, merkez bünyesinde faaliyet gösteren yapay zekâ ve robotik laboratuvarlarını gezerek girişimcilerin geliştirdiği yüksek teknolojili çözümleri inceledi.",
+      "en": "Following the ceremony, Bedrettin Dalan, Dr. Olaf Sauer, and the delegation toured the AI and robotics laboratories, inspecting deep-tech solutions developed by resident research teams and entrepreneurs."
+    }
+  },
+  {
+    "id": "opening-ribbon-cutting",
+    "category": "opening",
+    "image": "assets/img/gallery/opening-ribbon-cutting.jpg",
+    "title": {
+      "tr": "Kurucu Heyet ve Fraunhofer İş Birliği Başlangıcı",
+      "en": "Founding Leadership and Fraunhofer Partnership Launch"
+    },
+    "caption": {
+      "tr": "Yeditepe Üniversitesi Kurucu ve Onursal Başkanı Bedrettin Dalan, Rektör Yardımcımız Prof. Dr. Oğuz Bayat ve Fraunhofer IOSB Müdürü Dr. Olaf Sauer, Türkiye ile Almanya arasındaki ileri teknoloji ve yapay zekâ ortaklığını simgeleyen kurdele kesiminde.",
+      "en": "Yeditepe University Founding and Honorary President Bedrettin Dalan, Vice Rector Prof. Dr. Oğuz Bayat, and Fraunhofer IOSB Director Dr. Olaf Sauer during the ceremonial ribbon cutting inaugurating the advanced AI partnership between Türkiye and Germany."
+    }
+  },
+  {
+    "id": "opening-protocol",
+    "category": "opening",
+    "image": "assets/img/gallery/opening-protocol.jpg",
+    "title": {
+      "tr": "Üniversite Yönetimi ve Protokol Heyeti",
+      "en": "University Leadership and Protocol Delegation"
+    },
+    "caption": {
+      "tr": "Yeditepe Üniversitesi Kurucu ve Onursal Başkanı Bedrettin Dalan, Rektör Prof. Dr. Mehmet Durman ve Rektör Yardımcısı Prof. Dr. Oğuz Bayat açılış merasiminde.",
+      "en": "Yeditepe University Founding and Honorary President Bedrettin Dalan, Rector Prof. Dr. Mehmet Durman, and Vice Rector Prof. Dr. Oğuz Bayat during the opening ceremony."
+    }
+  },
+  {
+    "id": "opening-campus",
+    "category": "opening",
+    "image": "assets/img/opening-event.jpg",
+    "title": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü — Teknopark İstanbul",
+      "en": "Yeditepe University Technology Hub — Teknopark Istanbul"
+    },
+    "caption": {
+      "tr": "Bilişim ve Yapay Zekâ Uygulama ve Araştırma Merkezi, Girişim Stüdyosu ve Karbon Çözümleri Laboratuvarı’na ev sahipliği yapan Teknoloji Üssü yerleşkesi.",
+      "en": "The Technology Hub campus hosting the Informatics and AI Research Center, Venture Studio, and Carbon Solutions Laboratory at Teknopark Istanbul."
+    }
+  },
+  {
+    "id": "international-norway-ambassador",
+    "category": "international",
+    "image": "assets/img/ambassador-norway-dalan.png",
+    "title": {
+      "tr": "Norveç Büyükelçisi Andreas Gaarder ve Bedrettin Dalan Görüşmesi",
+      "en": "Meeting Between Norwegian Ambassador Andreas Gaarder and Bedrettin Dalan"
+    },
+    "caption": {
+      "tr": "Norveç'in Türkiye Büyükelçisi Andreas Gaarder ve İş Geliştirme Sorumlusu Deniz Yücedağ, üniversitemizi ziyaret ederek Kurucu ve Onursal Başkanımız Bedrettin Dalan ve Rektör Yardımcımız Prof. Dr. Oğuz Bayat ile bir araya geldi. Görüşmede yapay zekâ, biyomühendislik ve ortak araştırma olanakları değerlendirildi.",
+      "en": "Norway's Ambassador to Türkiye Andreas Gaarder and Business Development Officer Deniz Yücedağ visited our university, meeting with Founding and Honorary President Bedrettin Dalan and Vice Rector Prof. Dr. Oğuz Bayat to discuss AI, bioengineering, and collaborative research opportunities."
+    }
+  },
+  {
+    "id": "international-italy-ambassador",
+    "category": "international",
+    "image": "assets/img/ambassador-italy-dalan.jpg",
+    "title": {
+      "tr": "İtalya Büyükelçisi Giorgio Marrapodi'ye Fahri Doktora Töreni",
+      "en": "Honorary Doctorate Conferment to Italian Ambassador Giorgio Marrapodi"
+    },
+    "caption": {
+      "tr": "Kurucu ve Onursal Başkanımız Bedrettin Dalan, Türkiye ile İtalya arasındaki diplomatik, akademik ve teknolojik iş birliklerine sunduğu üstün katkılar dolayısıyla İtalya'nın Türkiye Büyükelçisi Giorgio Marrapodi'ye Fahri Doktora beratını takdim etti.",
+      "en": "Founding and Honorary President Bedrettin Dalan presented the Honorary Doctorate to Italy's Ambassador to Türkiye Giorgio Marrapodi in recognition of his outstanding contributions to Turkish-Italian diplomatic, academic, and technological cooperation."
+    }
+  },
+  {
+    "id": "international-uruguay-ambassador",
+    "category": "international",
+    "image": "assets/img/ambassador-uruguay.png",
+    "title": {
+      "tr": "Uruguay Büyükelçisi Hugo Cayrús ve Başkonsolos Mauro Bruno Sapokas Heyeti",
+      "en": "Delegation of Uruguayan Ambassador Hugo Cayrús and Consul General Mauro Bruno Sapokas"
+    },
+    "caption": {
+      "tr": "Uruguay'ın Türkiye Büyükelçisi Hugo Cayrús ve Başkonsolosu Mauro Bruno Sapokas, Rektör Yardımcımız Prof. Dr. Oğuz Bayat ile bir araya geldi. Heyet, yapay zekâ araştırma altyapımızı ve laboratuvarlarımızı yerinde inceleyerek geleceğe yönelik uluslararası ortaklıkları değerlendirdi.",
+      "en": "Uruguay's Ambassador to Türkiye Hugo Cayrús and Consul General Mauro Bruno Sapokas met with Vice Rector Prof. Dr. Oğuz Bayat, reviewing AI research infrastructure and laboratories for future international partnerships."
+    }
+  },
+  {
+    "id": "international-delegation-meeting",
+    "category": "international",
+    "image": "assets/img/ireland-meeting.png",
+    "title": {
+      "tr": "İrlanda Diplomatik Heyeti ile Üst Düzey Çalışma Toplantısı",
+      "en": "High-Level Working Session with Irish Diplomatic Delegation"
+    },
+    "caption": {
+      "tr": "İrlanda diplomatik heyetinin üniversitemizi ziyareti kapsamında Kurucu ve Onursal Başkanımız Bedrettin Dalan, Rektör Yardımcımız Prof. Dr. Oğuz Bayat ve Uluslararası Ofis Müdürü Cenker Han’ın katılımıyla gerçekleştirilen üst düzey çalışma toplantısı. Görüşmede yapay zekâ, biyomühendislik ve uluslararası konsorsiyumlar ele alındı.",
+      "en": "High-level working meeting held during the Irish diplomatic delegation's visit to our university, attended by Founding and Honorary President Bedrettin Dalan, Vice Rector Prof. Dr. Oğuz Bayat, and International Office Director Cenker Han, addressing AI, bioengineering, and international consortia."
+    }
+  },
+  {
+    "id": "international-gift-presentation",
+    "category": "international",
+    "image": "assets/img/ireland-visit.jpg",
+    "title": {
+      "tr": "Kurucu Başkan Bedrettin Dalan ve İrlanda Heyeti Plaket Takdimi",
+      "en": "Founding President Bedrettin Dalan and Irish Delegation Commemorative Gift"
+    },
+    "caption": {
+      "tr": "Kurucu ve Onursal Başkanımız Bedrettin Dalan tarafından diplomatik heyete üniversitemiz ve araştırma merkezimiz adına anı plaketi takdim edildi. Buluşmada küresel inovasyon köprüleri, araştırmacı değişim programları ve akademik ortaklıklar istişare edildi.",
+      "en": "Commemorative presentation by Founding and Honorary President Bedrettin Dalan on behalf of our university and research center, discussing global innovation bridges, researcher exchanges, and academic partnerships."
+    }
+  }
+]
+

@@ -1,0 +1,6 @@
+[      63ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[     184ms] [LOG] Yeditepe AI Website - Initializing... @ http://localhost:8080/assets/js/main.js:5
+[     190ms] [LOG] Rendering page: ekip.html @ http://localhost:8080/assets/js/main.js:31
+[     253ms] [LOG] Yeditepe AI Website - Ready. @ http://localhost:8080/assets/js/main.js:23
+[    6931ms] [LOG] Rendering page: ekip.html @ http://localhost:8080/assets/js/main.js:31
+[   26102ms] [LOG] Rendering page: ekip.html @ http://localhost:8080/assets/js/main.js:31

@@ -5,6 +5,50 @@
 const render = {
   _cache: {}, // Simple in-memory cache
 
+  // Belgedeki ekosistem görseli, okunabilir metin karşılığıyla birlikte sunulur.
+  renderEcosystem: async () => {
+    const target = document.getElementById('ecosystem-content');
+    if (!target) return;
+    const data = await render.fetchData('data/ecosystem.json');
+    if (!data) return;
+    target.innerHTML = `
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-widest text-[--c-accent] mb-4">${window.i18n.t(data.subtitle)}</p>
+        <h2 id="ecosystem-title" class="text-4xl md:text-5xl text-[--c-navy] mb-6">${data.title}</h2>
+        <p class="text-lg text-[--c-muted] leading-relaxed mb-8">${window.i18n.t(data.desc)}</p>
+        <ul class="ecosystem-pillars">${data.pillars.map((pillar, i) => `<li><span aria-hidden="true">${i + 1}</span>${window.i18n.t(pillar)}</li>`).join('')}</ul>
+        <a href="iletisim.html" class="btn-primary mt-8" data-i18n="hero_secondary_cta"></a>
+      </div>
+      <figure class="ecosystem-figure">
+        <a href="${data.image}" target="_blank" rel="noopener" aria-label="${window.i18n.t(window.SITE.data.strings.view_image)}">
+          <img src="${data.image}" alt="${window.i18n.t(data.alt)}" width="902" height="797" >
+        </a>
+        <figcaption class="text-sm text-[--c-muted] leading-relaxed mt-4" data-i18n="ecosystem_caption"></figcaption>
+        <a href="${data.image}" target="_blank" rel="noopener" class="inline-block text-sm font-semibold text-[--c-accent] mt-3" data-i18n="view_image"></a>
+      </figure>`;
+  },
+
+  // Fotoğraf Galerileri: Açıklamaları ve yüksek çözünürlüklü görselleriyle dinamik kartlar
+  renderGalleries: async () => {
+    const targets = document.querySelectorAll('[data-gallery]');
+    if (!targets.length) return;
+    const data = await render.fetchData('data/gallery.json');
+    if (!data) return;
+    targets.forEach(target => {
+      const items = data.filter(item => item.category === target.dataset.gallery);
+      target.innerHTML = items.map(item => `
+        <figure class="gallery-card">
+          <a href="${item.image}" target="_blank" rel="noopener" aria-label="${window.i18n.t(item.title)} — ${window.i18n.t(window.SITE.data.strings.view_image)}">
+            <img src="${item.image}" alt="${window.i18n.t(item.title)}">
+          </a>
+          <figcaption>
+            <h3 class="text-xl font-bold text-[--c-navy] mb-3">${window.i18n.t(item.title)}</h3>
+            <p class="text-sm text-[--c-muted] leading-relaxed">${window.i18n.t(item.caption)}</p>
+          </figcaption>
+        </figure>`).join('');
+    });
+  },
+
   // Helper to fetch data safely with caching
   fetchData: async (path) => {
     if (render._cache[path]) return render._cache[path];
@@ -44,12 +88,17 @@ const render = {
         <div class="w-12 h-12 rounded-xl bg-[--c-surface] flex items-center justify-center text-[--c-accent] shrink-0">
           <i data-lucide="mail"></i>
         </div>
-        <div>
+        <div class="min-w-0">
           <h4 class="font-bold text-[--c-navy] mb-1" data-i18n="contact_email_label">E-posta</h4>
-          <a href="mailto:${contact.email}" class="text-[--c-muted] hover:text-[--c-accent] transition-colors">${contact.email}</a>
+          ${contact.people.map(person => `
+            <div class="mt-4">
+              <p class="font-medium text-[--c-navy] mb-1">${person.name}</p>
+              <a href="mailto:${person.email}" class="break-words text-[--c-muted] hover:text-[--c-accent] transition-colors">${person.email}</a>
+            </div>
+          `).join('')}
         </div>
       </div>
-      <div class="flex items-start gap-6">
+      ${contact.phone ? `<div class="flex items-start gap-6">
         <div class="w-12 h-12 rounded-xl bg-[--c-surface] flex items-center justify-center text-[--c-accent] shrink-0">
           <i data-lucide="phone"></i>
         </div>
@@ -57,7 +106,7 @@ const render = {
           <h4 class="font-bold text-[--c-navy] mb-1" data-i18n="contact_phone_label">Telefon</h4>
           <a href="tel:${contact.phone.replace(/\s/g, '')}" class="text-[--c-muted] hover:text-[--c-accent] transition-colors">${contact.phone}</a>
         </div>
-      </div>
+      </div>` : ''}
     `;
 
     // Map Embed
@@ -141,9 +190,9 @@ const render = {
    * Homepage: Featured Projects
    */
   renderFeaturedProjects: async () => {
-    const section = document.querySelector('section.bg-\\[--c-surface\\]'); 
     const target = document.getElementById('featured-projects');
     if (!target) return;
+    const section = target.closest('section');
 
     const [projects, research] = await Promise.all([
       render.fetchData('data/projects.json'),
@@ -214,7 +263,7 @@ const render = {
       });
 
       return `
-        <a href="haberler.html" class="group block border-b border-[--c-border] pb-8 transition-colors hover:border-[--c-accent]">
+        <a href="haberler.html?id=${item.id}" class="group block border-b border-[--c-border] pb-8 transition-colors hover:border-[--c-accent]">
           <span class="text-sm font-medium text-[--c-accent] mb-4 block uppercase tracking-widest">${date}</span>
           <h3 class="text-2xl md:text-3xl font-bold mb-4 group-hover:text-[--c-navy] transition-colors leading-tight">
             ${window.i18n.t(item.title)}
@@ -443,44 +492,31 @@ const render = {
   },
 
   /**
-   * Team Page: Render leadership and research groups
+   * Ekip sayfası: üyeleri veri dosyasındaki sırayla tek listede gösterir.
    */
   renderTeam: async () => {
-    const leadershipTarget = document.getElementById('team-leadership-grid');
-    const researchTarget = document.getElementById('team-research-grid');
-    const researchSection = researchTarget?.closest('section');
-    if (!leadershipTarget || !researchTarget) return;
+    const target = document.getElementById('team-grid');
+    if (!target) return;
 
     const data = await render.fetchData('data/team.json');
+    if (!data) return;
     
     const renderCard = (member) => `
       <div class="card p-8 flex flex-col items-center text-center group h-full shadow-lg hover:shadow-2xl transition-all">
         <div class="w-40 h-40 rounded-full overflow-hidden mb-8 border-4 border-[--c-surface] group-hover:border-[--c-accent] transition-all shadow-md">
-          <img src="${member.photo}" alt="${member.name}" class="w-full h-full object-cover">
+          ${member.photo ? `<img src="${member.photo}" alt="${member.name}" class="w-full h-full object-cover" >` : `<div class="w-full h-full bg-[--c-surface] text-[--c-navy] text-4xl font-bold flex items-center justify-center" aria-hidden="true">${member.name.split(' ').map(part => part[0]).join('')}</div>`}
         </div>
         <h3 class="text-2xl font-bold mb-2 text-[--c-navy]">${member.name}</h3>
         <p class="text-[--c-accent] font-bold text-sm uppercase tracking-wider mb-3">${window.i18n.t(member.role)}</p>
         <p class="text-[--c-muted] text-xs leading-relaxed mb-6 flex-grow">${window.i18n.t(member.affiliation)}</p>
-        <a href="mailto:${member.email}" class="inline-flex items-center gap-2 text-sm font-medium text-[--c-navy] hover:text-[--c-accent] transition-colors">
+        ${member.email ? `<a href="mailto:${member.email}" class="inline-flex items-center gap-2 text-sm font-medium text-[--c-navy] hover:text-[--c-accent] transition-colors">
           <i data-lucide="mail" class="w-4 h-4"></i>
           <span>${member.email}</span>
-        </a>
+        </a>` : ''}
       </div>
     `;
 
-    const leadership = data.filter(m => m.group === 'leadership');
-    const research = data.filter(m => m.group === 'research');
-
-    leadershipTarget.innerHTML = leadership.map(renderCard).join('');
-    
-    if (research.length === 0) {
-      if (researchSection) researchSection.style.display = 'none';
-      leadershipTarget.classList.add('lg:max-w-4xl', 'mx-auto', 'lg:grid-cols-2');
-      leadershipTarget.classList.remove('lg:grid-cols-3');
-    } else {
-      if (researchSection) researchSection.style.display = '';
-      researchTarget.innerHTML = research.map(renderCard).join('');
-    }
+    target.innerHTML = data.map(renderCard).join('');
     
     lucide.createIcons();
   },
@@ -561,7 +597,9 @@ const render = {
           </div>
         </div>
       </article>
+      ${item.galleryCategory ? `<section class="mt-16 mb-16"><h2 class="text-3xl mb-8" data-i18n="gallery_${item.galleryCategory}"></h2><div data-gallery="${item.galleryCategory}" class="gallery-grid"></div></section>` : ''}
     `;
+    await render.renderGalleries();
     
     lucide.createIcons();
   },
@@ -574,7 +612,8 @@ const render = {
       render.renderResearch(),
       render.renderFeaturedProjects(),
       render.renderPartners(),
-      render.renderLatestNews()
+      render.renderLatestNews(),
+      render.renderEcosystem()
     ]);
     
     if (window.initAnimations) window.initAnimations();

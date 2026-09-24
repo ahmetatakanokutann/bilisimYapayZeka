@@ -2,10 +2,10 @@
   {
     "id": "industry-4",
     "icon": "factory",
-    "title": { "tr": "Endüstri 4.0", "en": "Industry 4.0" },
+    "title": { "tr": "Endüstri 4.0 ve 5.0", "en": "Industry 4.0 and 5.0" },
     "desc": {
-      "tr": "Üretim süreçlerinin dijitalleşmesi ve akıllı fabrikaların inşası.",
-      "en": "Digitization of production processes and construction of smart factories."
+      "tr": "Üretim süreçlerinin dijitalleşmesi ve akıllı fabrikaların inşası. Bu inşa, insan odaklı, sürdürülebilir ve dirençli üretim modelleri ile entegre edilmektedir.",
+      "en": "Digitalization of production processes and the development of smart factories, integrated with human-centric, sustainable and resilient production models."
     }
   },
   {
@@ -47,10 +47,10 @@
   {
     "id": "green-transformation",
     "icon": "leaf",
-    "title": { "tr": "Yeşil Dönüşüm", "en": "Green Transformation" },
+    "title": { "tr": "Kurumsal Sürdürülebilirlik ve Yeşil Dönüşüm", "en": "Corporate Sustainability and Green Transformation" },
     "desc": {
-      "tr": "Sürdürülebilirlik odaklı, enerji verimli yapay zeka çözümleri.",
-      "en": "Sustainability-focused, energy-efficient AI solutions."
+      "tr": "İşletmelerin çevresel, ekonomik ve sosyal performanslarını geliştirmeye yönelik stratejiler. Karbon yönetimi, kaynak ve enerji verimliliği, döngüsel ekonomi, sürdürülebilir tedarik zincirleri ve yeşil iş modelleri.",
+      "en": "Strategies to improve the environmental, economic and social performance of businesses. Carbon management, resource and energy efficiency, circular economy, sustainable supply chains and green business models."
     }
   }
 ]

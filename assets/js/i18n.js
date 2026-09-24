@@ -3,7 +3,10 @@
  */
 
 const i18n = {
-  getLang: () => localStorage.getItem('lang') || window.SITE?.defaultLang || 'tr',
+  getLang: () => {
+    const urlParams = typeof window !== 'undefined' && window.location ? new URLSearchParams(window.location.search).get('lang') : null;
+    return urlParams || localStorage.getItem('lang') || window.SITE?.defaultLang || 'tr';
+  },
   
   setLang: (lang) => {
     localStorage.setItem('lang', lang);
@@ -50,14 +53,7 @@ const i18n = {
   },
 
   updateUI: () => {
-    // Re-render components and apply translations
-    if (window.components) {
-      window.components.renderHeader();
-      window.components.renderFooter();
-    }
-    i18n.applyI18n();
-    
-    // Trigger a custom event for page-specific re-renders
+    // Trigger language change event which coordinates single-pass re-render
     window.dispatchEvent(new CustomEvent('langChanged', { detail: { lang: i18n.getLang() } }));
   }
 };

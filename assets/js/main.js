@@ -49,6 +49,7 @@ async function initPageContent() {
   } else if (path === 'iletisim.html') {
     await window.render.renderContact();
   }
+  await window.render.renderGalleries();
   
   // Ensure icons are created for newly rendered content
   if (window.lucide) {
@@ -69,15 +70,25 @@ window.addEventListener('langChanged', async () => {
   
   // Re-apply static translations
   window.i18n.applyI18n();
+
+  // Re-initialize animations
+  initAnimations();
 });
 
 /**
  * Global Animations using IntersectionObserver
  */
 function initAnimations() {
+  const elements = document.querySelectorAll('.card, .section h2:not(.card *), .section p:not(.card *), .dark-section > div');
+  
+  if (typeof IntersectionObserver === 'undefined') {
+    elements.forEach(el => el.classList.add('fade-up-active'));
+    return;
+  }
+
   const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
+    threshold: 0.05,
+    rootMargin: '100px 0px 100px 0px'
   };
 
   const observer = new IntersectionObserver((entries) => {
@@ -89,9 +100,14 @@ function initAnimations() {
     });
   }, observerOptions);
 
-  // Selector for elements to animate
-  document.querySelectorAll('.card, .section h2, .section p, .dark-section div').forEach(el => {
+  elements.forEach(el => {
+    if (el.classList.contains('fade-up-active')) return;
     el.classList.add('fade-up');
-    observer.observe(el);
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight + 200 && rect.bottom > -200) {
+      el.classList.add('fade-up-active');
+    } else {
+      observer.observe(el);
+    }
   });
 }

@@ -3,18 +3,57 @@
     "id": "opening-event",
     "date": "2026-03-30",
     "title": {
-      "tr": "Türkiye ve Almanya Yapay Zekâda Güçlerini Birleştirdi",
-      "en": "Türkiye and Germany Join Forces in Artificial Intelligence"
+      "tr": "Türkiye ve Almanya Yapay Zekâda Güçlerini Birleştirdi: Teknopark İstanbul Açılışı",
+      "en": "Türkiye and Germany Join Forces in Artificial Intelligence: Teknopark Istanbul Opening"
     },
     "excerpt": {
-      "tr": "Yeditepe Üniversitesi, Fraunhofer IOSB ve IIB işbirliği ile Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi kapılarını açtı.",
-      "en": "Yeditepe University, in cooperation with Fraunhofer IOSB and IIB, opened the doors of the Informatics and Artificial Intelligence Applications and Research Center."
+      "tr": "Yeditepe Üniversitesi, Fraunhofer IOSB ve IIB iş birliğiyle Teknopark İstanbul’da kurulan Bilişim ve Yapay Zekâ Uygulama ve Araştırma Merkezi resmi açılışını gerçekleştirdi.",
+      "en": "Yeditepe University, in partnership with Fraunhofer IOSB and IIB, celebrated the official inauguration of the Informatics and Artificial Intelligence Applications and Research Center at Teknopark Istanbul."
     },
     "body": {
-      "tr": "Yeditepe Üniversitesi Teknoloji Üssü'nde gerçekleştirilen açılış törenine üniversite yönetimi, Fraunhofer IOSB ve IIB temsilcileri ile Teknopark İstanbul yetkilileri katıldı. Merkez; Endüstri 4.0, Veri Yönetimi, Endüstriyel Yapay Zeka ve Dijital İkizler gibi kritik alanlarda uygulamalı araştırmalara odaklanacak. Bedrettin Dalan ve Prof. Dr. Mehmet Durman'ın katılımıyla gerçekleşen törende, bu işbirliğinin Türkiye'nin dijital dönüşümüne büyük katkı sağlayacağı vurgulandı.",
-      "en": "The opening ceremony held at Yeditepe University Technology Hub was attended by university management, Fraunhofer IOSB and IIB representatives, and Teknopark Istanbul officials. The center will focus on applied research in critical areas such as Industry 4.0, Data Management, Industrial AI, and Digital Twins. At the ceremony, held with the participation of Bedrettin Dalan and Prof. Dr. Mehmet Durman, it was emphasized that this cooperation will significantly contribute to Türkiye's digital transformation."
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü'nde gerçekleştirilen resmi açılış törenine Kurucu ve Onursal Başkanımız Bedrettin Dalan, Rektör Prof. Dr. Mehmet Durman, Rektör Yardımcısı Prof. Dr. Oğuz Bayat, Fraunhofer IOSB Direktörü Dr. Olaf Sauer, IIB Temsilcisi Doç. Dr. Faik Tanrıkulu ve Teknopark İstanbul yönetimi katıldı.\n\nMerkez; Endüstri 4.0 ve 5.0, Veri Yönetimi, Endüstriyel Yapay Zekâ, Dijital İkizler ve Kurumsal Sürdürülebilirlik gibi kritik alanlarda uygulamalı araştırmalara ve sanayi projelerine odaklanmaktadır. Kurucu ve Onursal Başkanımız Bedrettin Dalan ve Rektör Prof. Dr. Mehmet Durman'ın katılımıyla gerçekleşen törende, bu stratejik iş birliğinin Türkiye'nin küresel teknoloji ekosistemindeki rolünü güçlendireceği vurgulandı.\n\nMerkezimiz bünyesinde kurulan Girişim Stüdyosu (Venture Studio) ile birlikte, akademik bilginin doğrudan katma değerli sanayi projelerine ve ticarileşebilir yüksek teknoloji ürünlerine dönüştürülmesi hedeflenmektedir. Tören sonrasında heyet, yapay zekâ ve robotik laboratuvarlarını gezerek yürütülen projeleri yerinde incelemiştir.",
+      "en": "The official opening ceremony held at Yeditepe University Technology Hub was attended by Founding and Honorary President Bedrettin Dalan, Rector Prof. Dr. Mehmet Durman, Vice Rector Prof. Dr. Oğuz Bayat, Fraunhofer IOSB Director Dr. Olaf Sauer, IIB Representative Assoc. Prof. Dr. Faik Tanrıkulu, and Teknopark Istanbul leadership.\n\nThe center focuses on applied research and industrial projects in critical areas such as Industry 4.0 & 5.0, Data Management, Industrial Artificial Intelligence, Digital Twins, and Corporate Sustainability. In speeches by Founding and Honorary President Bedrettin Dalan and Rector Prof. Dr. Mehmet Durman, it was emphasized that this strategic partnership will enhance Türkiye's role in the global technology ecosystem.\n\nTogether with the Venture Studio established within the center, academic research is directly translated into high-value industrial solutions and commercializable deep-tech products. Following the ceremony, the delegation toured the AI and robotics laboratories, inspecting active projects on-site."
     },
-    "image": "assets/img/opening-event.jpg",
-    "verify": true
+    "image": "assets/img/fraunhofer-opening-hall.jpg",
+    "galleryCategory": "opening",
+    "verify": false
+  },
+  {
+    "id": "ambassador-visits",
+    "date": "2026-04-15",
+    "title": {
+      "tr": "Uluslararası Büyükelçiler ve Diplomatik Heyetler Üniversitemizde",
+      "en": "International Ambassadors and Diplomatic Delegations Visit Our University"
+    },
+    "excerpt": {
+      "tr": "Norveç, İtalya, Uruguay ve İrlanda büyükelçileri üniversitemizi ve yapay zekâ araştırma altyapımızı ziyaret ederek üst düzey temaslarda bulundu.",
+      "en": "Ambassadors from Norway, Italy, Uruguay, and Ireland visited our university and AI research facilities, conducting high-level diplomatic and academic engagements."
+    },
+    "body": {
+      "tr": "Yeditepe Üniversitesi ile Bilişim ve Yapay Zekâ Uygulama ve Araştırma Merkezi, küresel vizyonu doğrultusunda uluslararası diplomatik misyonlarla stratejik temaslarını genişletmektedir.\n\nBu kapsamda:\n- Norveç'in Türkiye Büyükelçisi Andreas Gaarder ve heyeti, Kurucu ve Onursal Başkanımız Bedrettin Dalan ve Rektör Yardımcımız Prof. Dr. Oğuz Bayat ile makamda bir araya gelerek yapay zekâ ve biyomühendislik alanında ikili iş birliklerini değerlendirmiştir.\n- İtalya'nın Türkiye Büyükelçisi Giorgio Marrapodi, iki ülke arasındaki akademik, diplomatik ve teknolojik ilişkilere yaptığı kalıcı katkılardan dolayı Kurucu Başkanımız Bedrettin Dalan'ın takdimiyle Fahri Doktora ile onurlandırılmıştır.\n- Uruguay'ın Türkiye Büyükelçisi Hugo Cayrús ve Başkonsolos Mauro Bruno Sapokas, üniversitemizi ziyaret ederek araştırma laboratuvarlarımızda incelemelerde bulunmuş ve uluslararası Ar-Ge projeleri için görüşmeler gerçekleştirmiştir.\n- İrlanda diplomatik heyetiyle yapılan temaslarda çok uluslu araştırma konsorsiyumları ve araştırmacı değişim programları istişare edilmiştir.\n\nUluslararası Ofis koordinasyonunda yürütülen bu diplomatik ve akademik buluşmalar, merkezimizin küresel araştırma ağını güçlendirmekte ve Türkiye ile dünya arasındaki teknoloji köprülerini pekiştirmektedir.",
+      "en": "In accordance with its global vision, Yeditepe University and the Center for Informatics and Artificial Intelligence Applications and Research continue to expand strategic ties with international diplomatic missions.\n\nKey highlights include:\n- Norway's Ambassador Andreas Gaarder and his delegation met with Founding and Honorary President Bedrettin Dalan and Vice Rector Prof. Dr. Oğuz Bayat to evaluate collaborative opportunities in AI and bioengineering.\n- Italy's Ambassador Giorgio Marrapodi was awarded an Honorary Doctorate presented by Founding President Bedrettin Dalan for his lasting contributions to academic, diplomatic, and technological relations between Italy and Türkiye.\n- Uruguay's Ambassador Hugo Cayrús and Consul General Mauro Bruno Sapokas visited our research laboratories, discussing joint international R&D ventures.\n- Irish diplomatic meetings focused on multinational research consortia and academic exchange programs.\n\nCoordinated alongside the International Office, these high-level engagements strengthen our center's international reach and establish enduring bridges for global technological innovation."
+    },
+    "image": "assets/img/ambassador-norway-dalan.png",
+    "galleryCategory": "international",
+    "verify": false
+  },
+  {
+    "id": "fraunhofer-germany-agreement",
+    "date": "2025-11-10",
+    "title": {
+      "tr": "Almanya Ziyareti: Fraunhofer Enstitüsü ile Stratejik İş Birliği Anlaşması",
+      "en": "Germany Visit: Strategic Partnership Agreement Signed with Fraunhofer Institute"
+    },
+    "excerpt": {
+      "tr": "Bedrettin Dalan ve Prof. Dr. Oğuz Bayat, Stuttgart Future Work Laboratuvarı’nda Fraunhofer Enstitüsü - IIB ile Teknopark İstanbul Yapay Zekâ Merkezi ortaklık anlaşmasını imzaladı.",
+      "en": "Bedrettin Dalan and Prof. Dr. Oğuz Bayat signed the Teknopark Istanbul AI Center partnership agreement with Fraunhofer Institute - IIB at the Stuttgart Future Work Lab."
+    },
+    "body": {
+      "tr": "Yeditepe Üniversitesi Kurucu ve Onursal Başkanı Bedrettin Dalan ile Rektör Yardımcısı Prof. Dr. Oğuz Bayat, Almanya’da düzenlenen AI Future Work programına katılarak Avrupa'nın önde gelen uygulamalı araştırma kuruluşu Fraunhofer Enstitüsü ve IIB heyetiyle bir araya geldi.\n\nStuttgart Future Work Laboratuvarı’nda imzalanan stratejik iş birliği anlaşması kapsamında; Türkiye ve Almanya sanayisi için ortak bir Yapay Zekâ Merkezi'nin Yeditepe Üniversitesi Teknopark İstanbul yerleşkesinde kurulması kararlaştırıldı. 500 m²’lik alanda hayata geçirilen merkezde Endüstri 4.0, endüstriyel yapay zekâ, dijital ikizler ve büyük veri yönetimi üzerine Ar-Ge projeleri ile eğitim programları yürütülmektedir.\n\nKurucu Başkanımız Bedrettin Dalan, bu uluslararası ortaklığın Türkiye'nin yüksek teknoloji üretim hedeflerine ve küresel pazarlara açılmasına önemli katkı sağlayacağını ifade etmiştir.",
+      "en": "Yeditepe University Founding and Honorary President Bedrettin Dalan and Vice Rector Prof. Dr. Oğuz Bayat attended the AI Future Work program in Germany, meeting with leadership from the Fraunhofer Institute and IIB.\n\nUnder the strategic agreement signed at the Stuttgart Future Work Laboratory, a joint Artificial Intelligence Center was established at Yeditepe University's Teknopark Istanbul campus. Spanning 500 square meters, the center hosts R&D and training programs in Industry 4.0, industrial AI, digital twins, and big data management.\n\nFounding President Bedrettin Dalan stated that this international collaboration will make vital contributions to Türkiye's high-tech manufacturing goals and global market integration."
+    },
+    "image": "assets/img/fraunhofer-germany-dalan.jpeg",
+    "galleryCategory": "opening",
+    "verify": false
   }
 ]

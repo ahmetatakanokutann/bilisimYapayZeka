@@ -6,6 +6,8 @@ const components = {
   renderHeader: () => {
     const headerEl = document.getElementById('site-header');
     if (!headerEl) return;
+    // Dil değişiminde açık mobil menünün kaydırma kilidini temizle.
+    document.body.style.overflow = '';
 
     const data = window.SITE.data;
     const currentLang = window.i18n.getLang();
@@ -23,19 +25,19 @@ const components = {
       <header class="sticky top-0 z-50 w-full border-b border-[--c-border] bg-white/80 backdrop-blur-md">
         <div class="max-w-screen-2xl mx-auto px-5 md:px-8 relative flex items-center justify-between h-20 md:h-24">
           <!-- Logo/Brand (Left) -->
-          <a href="index.html" class="shrink-0 flex items-center group relative z-10">
-            <img src="assets/img/logo.png" 
-                 alt="Yeditepe Üniversitesi - Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi" 
-                 class="h-10 md:h-14 w-auto object-contain max-w-[62vw] md:max-w-none">
+          <a href="index.html" class="site-brand shrink-0 flex items-center group relative z-50">
+            <img src="${window.i18n.t(data.brand.logo)}"
+                 alt="${window.i18n.t(data.brand.full)}"
+                 class="site-logo">
           </a>
 
           <!-- Desktop Nav (Centered, Absolute) -->
-          <nav class="hidden xl:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+          <nav class="hidden xl:flex items-center gap-5 ml-auto mr-6">
             ${navItems}
           </nav>
 
           <!-- Right Actions (TR|EN + Hamburger) -->
-          <div class="shrink-0 flex items-center gap-4 ml-auto relative z-10">
+          <div class="shrink-0 flex items-center gap-2 ml-auto xl:ml-0 relative z-50">
             <!-- Lang Switcher -->
             <div class="flex items-center border border-[--c-border] rounded-full px-1 py-1">
               <button onclick="window.i18n.setLang('tr')" 
@@ -51,13 +53,13 @@ const components = {
           </div>
         </div>
 
-        <!-- Mobile Menu Panel (Visible below XL) -->
-        <div id="mobile-menu" class="hidden fixed inset-0 z-40 bg-white xl:hidden overflow-y-auto pt-32 px-8 pb-12">
+      </header>
+        <!-- Panel, backdrop-filter içeren başlığın dışında kalır. -->
+        <div id="mobile-menu" class="hidden fixed inset-x-0 top-20 md:top-24 bottom-0 z-40 bg-white xl:hidden overflow-y-auto py-8 px-8">
            <nav class="flex flex-col gap-6 text-xl">
              ${navItems.replace(/text-sm/g, 'text-2xl')}
            </nav>
         </div>
-      </header>
     `;
 
     // Re-bind mobile menu events
@@ -99,8 +101,10 @@ const components = {
           <div>
             <h4 class="text-white font-semibold mb-6 uppercase tracking-wider text-sm" data-i18n="contact_title">İletişim</h4>
             <ul class="flex flex-col gap-3 text-[--c-on-dark]">
-              <li><a href="mailto:${data.contact.email}" class="hover:text-white transition-colors">${data.contact.email}</a></li>
-              <li><a href="tel:${data.contact.phone.replace(/\s/g, '')}" class="hover:text-white transition-colors">${data.contact.phone}</a></li>
+              ${data.contact.people.map(person => `
+                <li><span class="block text-sm mb-1">${person.name}</span><a href="mailto:${person.email}" class="break-words hover:text-white transition-colors">${person.email}</a></li>
+              `).join('')}
+              ${data.contact.phone ? `<li><a href="tel:${data.contact.phone.replace(/\s/g, '')}" class="hover:text-white transition-colors">${data.contact.phone}</a></li>` : ''}
             </ul>
           </div>
         </div>

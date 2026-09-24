@@ -1,6 +1,7 @@
 {
   "brand": {
     "short": "Yeditepe AI",
+    "logo": { "tr": "assets/img/logo-tr.png", "en": "assets/img/logo.png" },
     "full": {
       "tr": "Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi",
       "en": "Informatics and Artificial Intelligence Applications and Research Center"
@@ -95,8 +96,8 @@
       "en": "We produce tomorrow's solutions with innovative projects conducted with Fraunhofer IOSB, IIB, and our industrial stakeholders." 
     },
     "filter_all": { "tr": "Tümü", "en": "All" },
-    "filter_industry4": { "tr": "Endüstri 4.0", "en": "Industry 4.0" },
-    "filter_green": { "tr": "Yeşil Dönüşüm", "en": "Green Transformation" },
+    "filter_industry4": { "tr": "Endüstri 4.0 ve 5.0", "en": "Industry 4.0 and 5.0" },
+    "filter_green": { "tr": "Kurumsal Sürdürülebilirlik ve Yeşil Dönüşüm", "en": "Corporate Sustainability and Green Transformation" },
     "verify_notice": { "tr": "Not: Gösterilen projeler örnek içeriktir ve onay beklemektedir.", "en": "Note: Projects shown are sample content and pending approval." },
     "project_details": { "tr": "Proje Detayları", "en": "Project Details" },
     "project_desc_placeholder": { 
@@ -107,17 +108,11 @@
       "tr": "Şu anda yayınlanmış bir proje bulunmuyor. Fraunhofer IOSB iş birliği kapsamındaki çalışmalarımız sürüyor; yakında burada paylaşacağız.",
       "en": "There are no published projects yet. Our work under the Fraunhofer IOSB collaboration is ongoing and will be shared here soon."
     },
-    "projects_empty": {
-      "tr": "Şu anda yayınlanmış bir proje bulunmuyor. Fraunhofer IOSB iş birliği kapsamındaki çalışmalarımız sürüyor; yakında burada paylaşacağız.",
-      "en": "There are no published projects yet. Our work under the Fraunhofer IOSB collaboration is ongoing and will be shared here soon."
-    },
     "nav_team": { "tr": "Ekibimiz", "en": "Our Team" },
     "team_intro": { 
       "tr": "Disiplinlerarası uzmanlığa sahip akademik ve teknik kadromuzla yapay zeka alanında inovatif çözümler üretiyoruz.", 
       "en": "We produce innovative solutions in the field of AI with our academic and technical staff having interdisciplinary expertise." 
     },
-    "team_leadership": { "tr": "Yönetim", "en": "Leadership" },
-    "team_research": { "tr": "Araştırmacılar", "en": "Researchers" },
     "team_join_title": { "tr": "Ekibimize Katılın", "en": "Join Our Team" },
     "team_join_desc": { "tr": "Yapay zeka projelerimizde araştırmacı veya stajyer olarak yer almak ister misiniz?", "en": "Would you like to take part in our AI projects as a researcher or intern?" },
     "verify_tag": { "tr": "Onay Bekliyor", "en": "Pending Approval" },
@@ -133,20 +128,33 @@
       "en": "You can reach us anytime for questions, collaboration requests, or visit appointments." 
     },
     "contact_info_title": { "tr": "İletişim Bilgileri", "en": "Contact Information" },
+    "gallery_opening": { "tr": "Merkezimizin Açılışından", "en": "Our Center’s Opening" },
+    "gallery_international": { "tr": "Uluslararası Ziyaretler", "en": "International Visits" },
+    "gallery_intro": { "tr": "Merkezimizin açılışı ve üniversitemizin uluslararası buluşmalarından kareler.", "en": "Moments from our center’s opening and our university’s international meetings." },
+    "gallery_link": { "tr": "Fotoğrafları İnceleyin", "en": "Explore the Photos" },
+    "view_image": { "tr": "Görseli Büyük Görüntüle", "en": "View Full Image" },
+    "ecosystem_caption": { "tr": "Global AI Bridge Network — Küresel Yapay Zekâ İşbirliği ve Dönüşüm Ekosistemi", "en": "Global AI Bridge Network — Global AI Collaboration and Transformation Ecosystem (diagram in Turkish)" },
     "contact_address_label": { "tr": "Adres", "en": "Address" },
     "contact_email_label": { "tr": "E-posta", "en": "Email" },
     "contact_phone_label": { "tr": "Telefon", "en": "Phone" },
     "contact_social": { "tr": "Sosyal Medya", "en": "Social Media" },
-    "contact_form_title": { "tr": "Bize Mesaj Gönderin", "en": "Send Us a Message" },
-    "form_name": { "tr": "Ad Soyad", "en": "Full Name" },
-    "form_name_placeholder": { "tr": "Adınız ve soyadınız", "en": "Your name and surname" },
-    "form_email": { "tr": "E-posta", "en": "Email" },
-    "form_email_placeholder": { "tr": "ornek@yeditepe.edu.tr", "en": "example@yeditepe.edu.tr" },
-    "form_message": { "tr": "Mesajınız", "en": "Your Message" },
-    "form_message_placeholder": { "tr": "Size nasıl yardımcı olabiliriz?", "en": "How can we help you?" },
-    "form_submit": { "tr": "Mesajı Gönder", "en": "Send Message" },
-    "form_success": { "tr": "Mesajınız başarıyla iletildi. En kısa sürede size döneceğiz.", "en": "Your message has been sent successfully. We will get back to you soon." },
-    "form_error": { "tr": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.", "en": "An error occurred while sending the message. Please try again." },
+    "contact_collab_badge": { "tr": "İş Birliği & Randevu", "en": "Collaboration & Inquiries" },
+    "contact_collab_title": { "tr": "Doğrudan İletişim ve Randevu", "en": "Direct Contact & Appointments" },
+    "contact_collab_desc": {
+      "tr": "Merkezimizle sanayi ortaklığı, akademik araştırma konsorsiyumu veya Teknopark İstanbul yerleşkemizi ziyaret için doğrudan ilgili yöneticilerimiz ve uzmanlarımızla e-posta yoluyla irtibata geçebilirsiniz.",
+      "en": "For industrial partnerships, academic research consortia, or visiting our Teknopark Istanbul campus, you can reach out directly via email to our leadership and specialists."
+    },
+    "contact_hours_title": { "tr": "Ziyaret ve Çalışma Saatleri", "en": "Visiting & Office Hours" },
+    "contact_hours_text": {
+      "tr": "Hafta içi 09:00 – 17:00<br>Heyet ziyaretleri ve toplantılar için lütfen önceden e-posta ile randevu alınız.",
+      "en": "Weekdays 09:00 – 17:00<br>Please request an appointment via email prior to delegation visits and meetings."
+    },
+    "contact_campus_title": { "tr": "Teknoloji Üssü Yerleşkesi", "en": "Technology Hub Campus" },
+    "contact_campus_text": {
+      "tr": "Yeditepe Üniversitesi Teknoloji Üssü, Teknopark İstanbul bünyesinde Ar-Ge laboratuvarları ve Girişim Stüdyosu ile faaliyet göstermektedir.",
+      "en": "Yeditepe University Technology Hub operates within Teknopark Istanbul with advanced R&D laboratories and the Venture Studio."
+    },
+    "contact_email_btn": { "tr": "E-posta ile İletişime Geçin", "en": "Contact via Email" },
     "skip_to_content": { "tr": "İçeriğe atla", "en": "Skip to content" },
     "404_title": { "tr": "Sayfa Bulunamadı", "en": "Page Not Found" },
     "404_desc": { "tr": "Aradığınız sayfa mevcut değil veya taşınmış olabilir. Yapay zekamız bile bu sayfayı bulamadı.", "en": "The page you are looking for does not exist or may have been moved. Even our AI couldn't find this page." },
@@ -158,10 +166,14 @@
       "tr": "Yeditepe Üniversitesi Teknoloji Üssü — Teknopark İstanbul, Pendik/İstanbul",
       "en": "Yeditepe University Technology Hub — Teknopark Istanbul, Pendik/Istanbul"
     },
-    "email": "ai@yeditepe.edu.tr",
-    "phone": "+90 (216) 578 00 00",
+    "people": [
+      { "name": "Prof. Dr. Oğuz Bayat", "email": "oguz.bayat@yeditepe.edu.tr" },
+      { "name": "Prof. Dr. E. Şule Aydeniz", "email": "sule.aydeniz@yeditepe.edu.tr" },
+      { "name": "Ahmet Atakan Okutan", "email": "ahmetatakan.okutan@yeditepe.edu.tr" }
+    ],
+    "phone": "",
     "mapEmbed": "",
-    "verify": true
+    "verify": false
   },
   "social": {
     "linkedin": "",

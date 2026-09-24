@@ -45,7 +45,9 @@ Tüm yapısal/stil/şema kararları buradadır. Kod bu dosyaya uymak zorundadır
 │   ├── projects.json          # projeler
 │   ├── partners.json          # ortaklar (Fraunhofer, IIB, Teknopark)
 │   ├── team.json              # ekip
-│   └── news.json              # haberler/duyurular
+│   ├── news.json              # haberler/duyurular
+│   ├── ecosystem.json         # Global AI Bridge Network ekosistem infografiği
+│   └── gallery.json           # açılış ve uluslararası ziyaretler fotoğraf galerisi
 └── admin/                     # OPSİYONEL (Adım 10) — Decap/Sveltia CMS
     ├── index.html
     └── config.yml
@@ -107,6 +109,14 @@ Mobile-first. Kırılımlar Tailwind varsayılanı (`sm 640 / md 768 / lg 1024 /
 ## 5. JSON Şemaları (data/)
 > Her metin alanı `{tr, en}`. `verify:true` → onay bekleyen veri.
 
+### Belge eklemeleri (Eylül 2026)
+- `site.json > brand.logo`: `{tr, en}` yerel logo yolları; başlık aktif dile uygun logoyu gösterir.
+- `contact.people`: `[{name, email}]`; iletişim sayfası ve footer aynı kişi listesini kullanır. `phone` yalnızca doğrulanmış hat için doldurulur; boşsa telefon gösterilmez.
+- `data/ecosystem.json`: `{title, subtitle:{tr,en}, desc:{tr,en}, image, alt:{tr,en}, pillars:[{tr,en}]}`; ana sayfadaki Global AI Bridge Network görseli ve erişilebilir metin karşılığı.
+- `data/gallery.json`: `[{id, category:"opening|international", image, title:{tr,en}, caption:{tr,en}, source:{label:{tr,en},url}}]`; fotoğraflar kaynak bağlantısı ve doğrulanmış açıklama ile Hakkımızda ve Haberler sayfalarında gösterilir. Görseldeki kişilerin kimliği fotoğraftan tahmin edilmez.
+- Haber kaydında isteğe bağlı `galleryCategory` ile ilgili galeri haber detayına bağlanır.
+- Eksik ekip adları, fotoğrafları ve dahili numara kullanıcıdan tamamlanır; uydurma bilgiler yayımlanmaz.
+
 **site.json**
 ```json
 {
@@ -121,7 +131,8 @@ Mobile-first. Kırılımlar Tailwind varsayılanı (`sm 640 / md 768 / lg 1024 /
 **projects.json** — `[{ "id","title":{tr,en},"summary":{tr,en},"partner":"Fraunhofer IOSB","tags":["id-ref"],"status":{tr,en},"image":"","verify":true }]`
 > Not: `tags` = `research.json` id referanslarıdır; etiket metni render anında aktif dile göre `research.json`'dan çözülür.
 **partners.json** — `[{ "id","name","logo":"","url":"","role":{tr,en} }]`
-**team.json** — `[{ "id","name","role":{tr,en},"photo":"","group":"leadership|research" }]`
+**team.json** — `[{ "id","name","role":{tr,en},"photo":"" }]`
+> Ekip tek bölümde, JSON dizisindeki sırayla gösterilir: Oğuz Bayat, E. Şule Aydeniz, Ahmet Atakan Okutan. Yönetim/araştırma gruplaması kullanılmaz.
 **news.json** — `[{ "id","date":"2026-03-30","title":{tr,en},"excerpt":{tr,en},"body":{tr,en},"image":"","verify":true }]`
 
 ## 6. JS Yükleme Sırası (her sayfada, `</body>` öncesi)

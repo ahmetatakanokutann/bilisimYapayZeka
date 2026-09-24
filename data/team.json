@@ -8,19 +8,28 @@
       "en": "Vice Rector for R&D and Innovation · Dept. of Electrical & Electronics Engineering"
     },
     "email": "oguz.bayat@yeditepe.edu.tr",
-    "photo": "assets/img/team-oguz-bayat.png",
-    "group": "leadership"
+    "photo": "assets/img/team-oguz-bayat.png"
   },
   {
     "id": "sule-aydeniz",
-    "name": "Prof. Dr. Şule Aydeniz",
+    "name": "Prof. Dr. E. Şule Aydeniz",
     "role": { "tr": "Müdür Yardımcısı", "en": "Deputy Director" },
     "affiliation": {
-      "tr": "Uluslararası İşletmecilik (Almanca) Bölümü",
-      "en": "International Business (German Program)"
+      "tr": "Almanca Uluslararası İşletme Yönetimi",
+      "en": "International Business Management (German)"
     },
     "email": "sule.aydeniz@yeditepe.edu.tr",
-    "photo": "assets/img/team-sule-aydeniz.jpg",
-    "group": "leadership"
+    "photo": "assets/img/team-sule-aydeniz.jpg"
+  },
+  {
+    "id": "ahmet-atakan-okutan",
+    "name": "Ahmet Atakan Okutan",
+    "role": { "tr": "Uzman", "en": "Specialist" },
+    "affiliation": {
+      "tr": "Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi",
+      "en": "Informatics and Artificial Intelligence Applications and Research Center"
+    },
+    "email": "ahmetatakan.okutan@yeditepe.edu.tr",
+    "photo": "assets/img/team-ahmet-atakan-okutan.jpg"
   }
 ]

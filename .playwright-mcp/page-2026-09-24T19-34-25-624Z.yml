@@ -1,0 +1,104 @@
+- generic [active] [ref=f2e1]:
+  - banner [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - link [ref=f2e5] [cursor=pointer]:
+        - /url: index.html
+        - img "Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi" [ref=f2e6]
+      - navigation [ref=f2e7]:
+        - link "Ana Sayfa" [ref=f2e8] [cursor=pointer]:
+          - /url: index.html
+        - link "Hakkımızda" [ref=f2e9] [cursor=pointer]:
+          - /url: hakkimizda.html
+        - link "Araştırma" [ref=f2e10] [cursor=pointer]:
+          - /url: arastirma.html
+        - link "Projeler" [ref=f2e11] [cursor=pointer]:
+          - /url: projeler.html
+        - link "Ekip" [ref=f2e12] [cursor=pointer]:
+          - /url: ekip.html
+        - link "Haberler" [ref=f2e13] [cursor=pointer]:
+          - /url: haberler.html
+        - link "İletişim" [ref=f2e14] [cursor=pointer]:
+          - /url: iletisim.html
+      - generic [ref=f2e16]:
+        - button "TR" [ref=f2e17] [cursor=pointer]
+        - button "EN" [ref=f2e18] [cursor=pointer]
+  - main [ref=f2e19]:
+    - generic [ref=f2e21]:
+      - heading "Ekibimiz" [level=1] [ref=f2e22]
+      - paragraph [ref=f2e23]: Disiplinlerarası uzmanlığa sahip akademik ve teknik kadromuzla yapay zeka alanında inovatif çözümler üretiyoruz.
+    - generic [ref=f2e26]:
+      - generic [ref=f2e27]:
+        - img "Prof. Dr. Oğuz Bayat" [ref=f2e29]
+        - heading "Prof. Dr. Oğuz Bayat" [level=3] [ref=f2e30]
+        - paragraph [ref=f2e31]: Merkez Müdürü
+        - paragraph [ref=f2e32]: AR-GE ve İnovasyondan Sorumlu Rektör Yardımcısı · Elektrik-Elektronik Mühendisliği Bölümü
+        - link "oguz.bayat@yeditepe.edu.tr" [ref=f2e33] [cursor=pointer]:
+          - /url: mailto:oguz.bayat@yeditepe.edu.tr
+      - generic [ref=f2e38]:
+        - img "Prof. Dr. E. Şule Aydeniz" [ref=f2e40]
+        - heading "Prof. Dr. E. Şule Aydeniz" [level=3] [ref=f2e41]
+        - paragraph [ref=f2e42]: Müdür Yardımcısı
+        - paragraph [ref=f2e43]: Almanca Uluslararası İşletme Yönetimi
+        - link "sule.aydeniz@yeditepe.edu.tr" [ref=f2e44] [cursor=pointer]:
+          - /url: mailto:sule.aydeniz@yeditepe.edu.tr
+      - generic [ref=f2e49]:
+        - img "Ahmet Atakan Okutan" [ref=f2e51]
+        - heading "Ahmet Atakan Okutan" [level=3] [ref=f2e52]
+        - paragraph [ref=f2e53]: Uzman
+        - paragraph [ref=f2e54]: Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi
+        - link "ahmetatakan.okutan@yeditepe.edu.tr" [ref=f2e55] [cursor=pointer]:
+          - /url: mailto:ahmetatakan.okutan@yeditepe.edu.tr
+    - generic [ref=f2e62]:
+      - heading "Ekibimize Katılın" [level=2] [ref=f2e63]
+      - paragraph [ref=f2e64]: Yapay zeka projelerimizde araştırmacı veya stajyer olarak yer almak ister misiniz?
+      - link "İletişime Geçin" [ref=f2e65] [cursor=pointer]:
+        - /url: iletisim.html
+  - contentinfo [ref=f2e67]:
+    - generic [ref=f2e68]:
+      - generic [ref=f2e69]:
+        - heading "Yeditepe AI" [level=3] [ref=f2e70]
+        - paragraph [ref=f2e71]: Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi
+        - paragraph [ref=f2e72]: Yeditepe Üniversitesi Teknoloji Üssü — Teknopark İstanbul, Pendik/İstanbul
+      - generic [ref=f2e73]:
+        - heading "Menü" [level=4] [ref=f2e74]
+        - list [ref=f2e75]:
+          - listitem [ref=f2e76]:
+            - link "Hakkımızda" [ref=f2e77] [cursor=pointer]:
+              - /url: hakkimizda.html
+          - listitem [ref=f2e78]:
+            - link "Araştırma" [ref=f2e79] [cursor=pointer]:
+              - /url: arastirma.html
+          - listitem [ref=f2e80]:
+            - link "Projeler" [ref=f2e81] [cursor=pointer]:
+              - /url: projeler.html
+          - listitem [ref=f2e82]:
+            - link "Ekip" [ref=f2e83] [cursor=pointer]:
+              - /url: ekip.html
+          - listitem [ref=f2e84]:
+            - link "Haberler" [ref=f2e85] [cursor=pointer]:
+              - /url: haberler.html
+          - listitem [ref=f2e86]:
+            - link "İletişim" [ref=f2e87] [cursor=pointer]:
+              - /url: iletisim.html
+      - generic [ref=f2e88]:
+        - heading "İletişim" [level=4] [ref=f2e89]
+        - list [ref=f2e90]:
+          - listitem [ref=f2e91]:
+            - generic [ref=f2e92]: Prof. Dr. Oğuz Bayat
+            - link "oguz.bayat@yeditepe.edu.tr" [ref=f2e93] [cursor=pointer]:
+              - /url: mailto:oguz.bayat@yeditepe.edu.tr
+          - listitem [ref=f2e94]:
+            - generic [ref=f2e95]: Prof. Dr. E. Şule Aydeniz
+            - link "sule.aydeniz@yeditepe.edu.tr" [ref=f2e96] [cursor=pointer]:
+              - /url: mailto:sule.aydeniz@yeditepe.edu.tr
+          - listitem [ref=f2e97]:
+            - generic [ref=f2e98]: Ahmet Atakan Okutan
+            - link "ahmetatakan.okutan@yeditepe.edu.tr" [ref=f2e99] [cursor=pointer]:
+              - /url: mailto:ahmetatakan.okutan@yeditepe.edu.tr
+    - generic [ref=f2e100]:
+      - paragraph [ref=f2e101]: © 2026 Yeditepe Üniversitesi - Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi
+      - generic [ref=f2e102]:
+        - link "KVKK" [ref=f2e103] [cursor=pointer]:
+          - /url: "#"
+        - link "Privacy Policy" [ref=f2e104] [cursor=pointer]:
+          - /url: "#"

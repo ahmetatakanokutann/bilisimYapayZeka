@@ -21,11 +21,10 @@
     "name": "Yeditepe Üniversitesi Bilişim ve Yapay Zeka Uygulama ve Araştırma Merkezi",
     "url": "https://ahmetatakanokutann.github.io/bilisimYapayZeka",
     "logo": "https://ahmetatakanokutann.github.io/bilisimYapayZeka/assets/img/logo.png",
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+90-216-578-00-00",
-      "contactType": "customer service"
-    }
+    "contactPoint": [
+      { "@type": "ContactPoint", "name": "Prof. Dr. Oğuz Bayat", "email": "oguz.bayat@yeditepe.edu.tr", "contactType": "Director" },
+      { "@type": "ContactPoint", "name": "Prof. Dr. E. Şule Aydeniz", "email": "sule.aydeniz@yeditepe.edu.tr", "contactType": "Deputy Director" }
+    ]
   }
   </script>
 
@@ -67,7 +66,7 @@
       <div class="absolute inset-0 opacity-10 pointer-events-none z-[2]" style="background-image: radial-gradient(circle at 2px 2px, var(--c-accent) 1px, transparent 0); background-size: 40px 40px;"></div>
       
       <div class="container relative z-10 flex flex-col items-center text-center">
-        <h1 class="text-5xl md:text-8xl mb-8 leading-tight">
+        <h1 class="text-4xl sm:text-5xl md:text-8xl mb-8 leading-tight break-words max-w-full">
           <span data-i18n="hero_title_part1">Yapay Zeka ile</span><br>
           <span class="gradient-text" data-i18n="hero_title_part2">Geleceği Şekillendiriyoruz</span>
         </h1>
@@ -146,6 +145,11 @@
       </div>
     </section>
 
+    <!-- Belgedeki işbirliği ekosistemi -->
+    <section class="section bg-[--c-surface]" aria-labelledby="ecosystem-title">
+      <div id="ecosystem-content" class="container ecosystem-layout"></div>
+    </section>
+
     <!-- 6. Partners Section -->
     <section class="section border-y border-[--c-border]">
       <div class="container">
@@ -163,7 +167,7 @@
           <div class="max-w-2xl">
             <h2 class="text-4xl md:text-5xl mb-4" data-i18n="section_news_title">Son Haberler</h2>
           </div>
-          <a href="haberler.html" class="btn-ghost group" data-i18n="view_all">
+          <a href="haberler.html" class="btn-ghost group">
             <span data-i18n="view_all">Tümünü Gör</span>
             <i data-lucide="arrow-right" class="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"></i>
           </a>
@@ -171,6 +175,16 @@
         <div id="latest-news" class="grid grid-cols-1 md:grid-cols-2 gap-12">
           <!-- Dynamically filled by render.js -->
         </div>
+      </div>
+    </section>
+
+    <section class="section bg-[--c-surface]">
+      <div class="container flex flex-col md:flex-row md:items-center justify-between gap-8">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl mb-4" data-i18n="gallery_opening">Merkezimizin Açılışından</h2>
+          <p class="text-[--c-muted]" data-i18n="gallery_intro">Merkezimizin açılışı ve üniversitemizin uluslararası buluşmalarından kareler.</p>
+        </div>
+        <a href="hakkimizda.html#fotograflar" class="btn-ghost shrink-0" data-i18n="gallery_link">Fotoğrafları İnceleyin</a>
       </div>
     </section>
 

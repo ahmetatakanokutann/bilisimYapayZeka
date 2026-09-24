@@ -1,0 +1,15 @@
+{
+  "title": "Global AI Bridge Network",
+  "subtitle": { "tr": "Küresel Yapay Zekâ İşbirliği ve Dönüşüm Ekosistemi", "en": "Global AI Collaboration and Transformation Ecosystem" },
+  "desc": { "tr": "Bilgi, işbirliği ve inovasyon köprüleriyle geleceği birlikte inşa ediyoruz. Bu yaklaşım; akademi, sanayi, finans, kamu ve teknoloji paydaşlarını uluslararası bir ağda buluşturuyor.", "en": "Building the future together through bridges of knowledge, collaboration and innovation. This approach connects academia, industry, finance, the public sector and technology providers in an international network." },
+  "image": "assets/img/global-ai-bridge-network.png",
+  "alt": { "tr": "Global AI Bridge Network: akademi ve araştırma, sanayi ve özel sektör, finans ve yatırım, kamu ve regülasyon, teknoloji sağlayıcıları ve uluslararası işbirliklerini bir araya getiren altı bileşenli ekosistem.", "en": "Global AI Bridge Network: a six-part ecosystem connecting academia and research, industry, finance and investment, the public sector and regulation, technology providers and international partnerships." },
+  "pillars": [
+    { "tr": "Akademi ve Araştırma", "en": "Academia and Research" },
+    { "tr": "Sanayi ve Özel Sektör", "en": "Industry and the Private Sector" },
+    { "tr": "Finans ve Yatırım Ekosistemi", "en": "Finance and Investment Ecosystem" },
+    { "tr": "Kamu ve Regülasyon", "en": "Public Sector and Regulation" },
+    { "tr": "Teknoloji ve Altyapı Sağlayıcıları", "en": "Technology and Infrastructure Providers" },
+    { "tr": "Uluslararası Ağ ve İşbirlikleri", "en": "International Networks and Partnerships" }
+  ]
+}
