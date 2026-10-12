@@ -132,7 +132,7 @@ Mobile-first. Kırılımlar Tailwind varsayılanı (`sm 640 / md 768 / lg 1024 /
 > Not: `tags` = `research.json` id referanslarıdır; etiket metni render anında aktif dile göre `research.json`'dan çözülür.
 **partners.json** — `[{ "id","name","logo":"","url":"","role":{tr,en} }]`
 **team.json** — `[{ "id","name","role":{tr,en},"photo":"" }]`
-> Ekip tek bölümde, JSON dizisindeki sırayla gösterilir: Oğuz Bayat, E. Şule Aydeniz, Ahmet Atakan Okutan. Yönetim/araştırma gruplaması kullanılmaz.
+> Ekip tek bölümde, JSON dizisindeki sırayla gösterilir: Oğuz Bayat, E. Şule Aydeniz, Ahmet Atakan Okutan, Ekin Sönmez. Yönetim/araştırma gruplaması kullanılmaz.
 **news.json** — `[{ "id","date":"2026-03-30","title":{tr,en},"excerpt":{tr,en},"body":{tr,en},"image":"","verify":true }]`
 
 ## 6. JS Yükleme Sırası (her sayfada, `</body>` öncesi)

@@ -31,5 +31,16 @@
     },
     "email": "ahmetatakan.okutan@yeditepe.edu.tr",
     "photo": "assets/img/team-ahmet-atakan-okutan.jpg"
+  },
+  {
+    "id": "ekin-sonmez",
+    "name": "Arş. Gör. Ekin Sönmez",
+    "role": { "tr": "Araştırma Görevlisi", "en": "Research Assistant" },
+    "affiliation": {
+      "tr": "Bilgisayar ve Bilişim Bilimleri Fakültesi · Yönetim Bilişim Sistemleri Bölümü",
+      "en": "Faculty of Computer and Information Sciences · Department of Management Information Systems"
+    },
+    "email": "ekin.sonmez@yeditepe.edu.tr",
+    "photo": "assets/img/team-ekin-sonmez.jpg"
   }
 ]

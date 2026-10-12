@@ -4,6 +4,8 @@
 **Tarih:** 24 Eylül 2026  
 **Denetim Yöntemi:** LibreOffice ile PDF dönüştürme, `pdftoppm` ile 200 DPI tam sayfa rasterlaştırma, 4 sayfanın her birinin tek tek görsel olarak incelenmesi, DOCX XML metin çıkarımı ve özgün medya (`word/media/*`) SHA-256 doğrulaması.
 
+**13 Ekim 2026 güncellemesi:** Aşağıdaki Ekin'e ilişkin açık maddeler 24 Eylül denetiminin tarihsel durumunu gösterir. Güncel ekip listesinde Arş. Gör. Ekin Sönmez, kullanıcının ilettiği `ekinsonmez0.jpg` fotoğrafı, Bilgisayar ve Bilişim Bilimleri Fakültesi / Yönetim Bilişim Sistemleri Bölümü bilgisi ve `ekin.sonmez@yeditepe.edu.tr` adresiyle Ahmet Atakan Okutan'dan sonra yer alır. Güncel sürümde Ahmet Atakan Okutan'ın fotoğrafı ve kurumsal e-postası da bulunmaktadır.
+
 ---
 
 ## 1. İncelenen DOCX Sayfaları ve Kontrol Listesi
